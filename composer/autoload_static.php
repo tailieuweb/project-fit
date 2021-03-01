@@ -152,6 +152,7 @@ class ComposerStaticInit7997ba8f77937a83d1f609e4e7f1bcbb
             'Foostart\\Post\\' => 14,
             'Foostart\\Front\\' => 15,
             'Foostart\\Filemanager\\' => 21,
+            'Foostart\\Contact\\' => 17,
             'Foostart\\Category\\' => 18,
             'Foostart\\Acl\\' => 13,
             'Fideloper\\Proxy\\' => 16,
@@ -466,6 +467,10 @@ class ComposerStaticInit7997ba8f77937a83d1f609e4e7f1bcbb
         'Foostart\\Filemanager\\' => 
         array (
             0 => __DIR__ . '/..' . '/foostart/package-filemanager/src',
+        ),
+        'Foostart\\Contact\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/foostart/package-contact',
         ),
         'Foostart\\Category\\' => 
         array (
@@ -1649,6 +1654,15 @@ class ComposerStaticInit7997ba8f77937a83d1f609e4e7f1bcbb
         'Foostart\\Category\\Models\\Context' => __DIR__ . '/..' . '/foostart/package-category/Models/Context.php',
         'Foostart\\Category\\Validators\\CategoryValidator' => __DIR__ . '/..' . '/foostart/package-category/Validators/CategoryValidator.php',
         'Foostart\\Category\\Validators\\ContextValidator' => __DIR__ . '/..' . '/foostart/package-category/Validators/ContextValidator.php',
+        'Foostart\\Contact\\ContactServiceProvider' => __DIR__ . '/..' . '/foostart/package-contact/ContactServiceProvider.php',
+        'Foostart\\Contact\\Controllers\\Admin\\ContactAdminController' => __DIR__ . '/..' . '/foostart/package-contact/Controllers/Admin/ContactAdminController.php',
+        'Foostart\\Contact\\Controllers\\Admin\\MailController' => __DIR__ . '/..' . '/foostart/package-contact/Controllers/Admin/MailController.php',
+        'Foostart\\Contact\\Controllers\\Front\\ContactController' => __DIR__ . '/..' . '/foostart/package-contact/Controllers/Front/ContactController.php',
+        'Foostart\\Contact\\Controllers\\User\\ContactUserController' => __DIR__ . '/..' . '/foostart/package-contact/Controllers/User/ContactUserController.php',
+        'Foostart\\Contact\\Mail\\ContactMail' => __DIR__ . '/..' . '/foostart/package-contact/Mail/ContactMail.php',
+        'Foostart\\Contact\\Models\\Contact' => __DIR__ . '/..' . '/foostart/package-contact/Models/Contact.php',
+        'Foostart\\Contact\\Validators\\ContactValidator' => __DIR__ . '/..' . '/foostart/package-contact/Validators/ContactValidator.php',
+        'Foostart\\Contact\\Validators\\SampleValidator' => __DIR__ . '/..' . '/foostart/package-contact/Validators/SampleValidator.php',
         'Foostart\\Filemanager\\Controllers\\Controller' => __DIR__ . '/..' . '/foostart/package-filemanager/src/Controllers/Controller.php',
         'Foostart\\Filemanager\\Controllers\\CropController' => __DIR__ . '/..' . '/foostart/package-filemanager/src/Controllers/CropController.php',
         'Foostart\\Filemanager\\Controllers\\DeleteController' => __DIR__ . '/..' . '/foostart/package-filemanager/src/Controllers/DeleteController.php',
@@ -1681,6 +1695,8 @@ class ComposerStaticInit7997ba8f77937a83d1f609e4e7f1bcbb
         'Foostart\\Front\\Controllers\\AboutController' => __DIR__ . '/..' . '/foostart/package-front/Controllers/AboutController.php',
         'Foostart\\Front\\Controllers\\FrontController' => __DIR__ . '/..' . '/foostart/package-front/Controllers/FrontController.php',
         'Foostart\\Front\\Controllers\\HomeController' => __DIR__ . '/..' . '/foostart/package-front/Controllers/HomeController.php',
+        'Foostart\\Front\\Controllers\\InstallController' => __DIR__ . '/..' . '/foostart/package-front/Controllers/InstallController.php',
+        'Foostart\\Front\\Controllers\\PostUserController' => __DIR__ . '/..' . '/foostart/package-front/Controllers/PostUserController.php',
         'Foostart\\Front\\Controllers\\RuleController' => __DIR__ . '/..' . '/foostart/package-front/Controllers/RuleController.php',
         'Foostart\\Front\\Controllers\\RulesController' => __DIR__ . '/..' . '/foostart/package-front/Controllers/RulesController.php',
         'Foostart\\Front\\Controllers\\SearchController' => __DIR__ . '/..' . '/foostart/package-front/Controllers/SearchController.php',

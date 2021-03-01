@@ -74,6 +74,7 @@ return array(
     'Foostart\\Post\\' => array($vendorDir . '/foostart/package-post'),
     'Foostart\\Front\\' => array($vendorDir . '/foostart/package-front'),
     'Foostart\\Filemanager\\' => array($vendorDir . '/foostart/package-filemanager/src'),
+    'Foostart\\Contact\\' => array($vendorDir . '/foostart/package-contact'),
     'Foostart\\Category\\' => array($vendorDir . '/foostart/package-category'),
     'Foostart\\Acl\\' => array($vendorDir . '/foostart/package-acl/app'),
     'Fideloper\\Proxy\\' => array($vendorDir . '/fideloper/proxy/src'),

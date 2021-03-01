@@ -24,7 +24,7 @@ use Foostart\Category\Helpers\FooCategory;
 use MatthiasMullie\Minify\CSS;
 use MatthiasMullie\Minify\JS;
 
-class InstallController extends Controller {
+class FrontController extends Controller {
 
     //send data to view
     public $data_view = [
