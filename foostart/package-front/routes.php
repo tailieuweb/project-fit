@@ -6,6 +6,13 @@ Route::group(['middleware' => ['web']], function () {
     Route::group(['middleware' => [],
         'namespace' => 'Foostart\Front\Controllers',
             ], function () {
+        
+        $route_exceptions = [
+            'login',
+            'laravel-filemanager',
+        ];
+        $temp = implode('|', $route_exceptions);
+        
         /**
          * Copy block from root to source
          */
@@ -60,28 +67,61 @@ Route::group(['middleware' => ['web']], function () {
         Route::get('/', [
             'as' => 'home',
             'uses' => 'HomeController@index'
-        ]); Route::get('/home', [
+        ]); Route::get('/trang-chu', [
             'as' => 'home',
             'uses' => 'HomeController@index'
         ]);
 
         /**
-         * Rules
+         * News
          */
-        Route::get('/rules/{name}-{id}', [
-            'as' => 'rules',
-            'uses' => 'RulesController@index'
+        Route::get('/tin-tuc', [
+            'as' => 'news.list',
+            'uses' => 'PostUserController@listNews'
+        ]);
+        Route::get('/tin-tuc/{name}-{id}', [
+            'as' => 'news.detail',
+            'uses' => 'PostUserController@detailNews'
         ])->where(['name' => '[a-zA-Z0-9-_]+','id' => '[0-9]+']);
 
         /**
-         * Rule
+         * Personnel
          */
-        Route::get('/rule/{name}-{id}', [
-            'as' => 'rule',
-            'uses' => 'RuleController@index'
+        Route::get('/nhan-su', [
+            'as' => 'personnel.list',
+            'uses' => 'PostUserController@listPersonnel'
+        ]);
+        Route::get('/nhan-su/{name}-{id}', [
+            'as' => 'personnel.detail',
+            'uses' => 'PostUserController@detailPersonnel'
         ])->where(['name' => '[a-zA-Z0-9-_]+','id' => '[0-9]+']);
 
-
+        /**
+         * Student
+         */
+        Route::get('/sinh-vien', [
+            'as' => 'student.list',
+            'uses' => 'PostUserController@listStudent'
+        ]);
+        Route::get('/sinh-vien/{name}-{id}', [
+            'as' => 'student.detail',
+            'uses' => 'PostUserController@detailStudent'
+        ])->where(['name' => '[a-zA-Z0-9-_]+','id' => '[0-9]+']);
+        
+        /**
+         * Thematic
+         */
+        Route::get('/chuyen-de', [
+            'as' => 'thematic.list',
+            'uses' => 'PostUserController@listThematic'
+        ]);
+        Route::get('/chuyen-de/{name}-{id}', [
+            'as' => 'thematic.detail',
+            'uses' => 'PostUserController@detailThematic'
+        ])->where(['name' => '[a-zA-Z0-9-_]+','id' => '[0-9]+']);
+        
+        
+        
 
         /**
          * Search

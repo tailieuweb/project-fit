@@ -49,7 +49,7 @@ class FooValidator extends AbstractValidator
 
                 $this->errors->add($params['key'], trans($this->lang_admin.'.errors.required_min_length', [
                                                                                     'attribute ' => $params['label'],
-                                                                                    'minlength' => $params['min'],
+                                                                                    'minlength' => $params['min']
                                                                                 ]));
                 $flag = FALSE;
             }
