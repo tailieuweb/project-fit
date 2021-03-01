@@ -1093,24 +1093,24 @@
         },
         {
             "name": "foostart/package-post",
-            "version": "10.0.6",
-            "version_normalized": "10.0.6.0",
+            "version": "10.0.7",
+            "version_normalized": "10.0.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/foostart/package-post.git",
-                "reference": "782c8aa2055959258fc0954eb3a595ca93bdac59"
+                "reference": "b731e274a240d14b27568899888266830b1326be"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/foostart/package-post/zipball/782c8aa2055959258fc0954eb3a595ca93bdac59",
-                "reference": "782c8aa2055959258fc0954eb3a595ca93bdac59",
+                "url": "https://api.github.com/repos/foostart/package-post/zipball/b731e274a240d14b27568899888266830b1326be",
+                "reference": "b731e274a240d14b27568899888266830b1326be",
                 "shasum": ""
             },
             "require": {
                 "foostart/package-filemanager": "*",
                 "foostart/package-slideshow": "*"
             },
-            "time": "2021-03-01T04:03:29+00:00",
+            "time": "2021-03-01T07:58:10+00:00",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
@@ -1136,7 +1136,7 @@
             ],
             "support": {
                 "issues": "https://github.com/foostart/package-post/issues",
-                "source": "https://github.com/foostart/package-post/tree/10.0.6"
+                "source": "https://github.com/foostart/package-post/tree/10.0.7"
             },
             "install-path": "../foostart/package-post"
         },
