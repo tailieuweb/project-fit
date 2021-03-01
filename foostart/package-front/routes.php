@@ -19,21 +19,21 @@ Route::group(['middleware' => ['web']], function () {
         //Copy blocks
         Route::get('/copy-blocks', [
             'as' => 'copy-block',
-            'uses' => 'FrontController@copyBlocks'
+            'uses' => 'InstallController@copyBlocks'
         ]);
         //Install blocks
         Route::get('/install-blocks', [
             'as' => 'install-block',
-            'uses' => 'HomeController@installBlocks'
+            'uses' => 'InstallController@installBlocks'
         ]);
         Route::get('/convert', [
             'as' => 'convert',
-            'uses' => 'HomeController@convertLESS2CSS'
+            'uses' => 'InstallController@convertLESS2CSS'
         ]);
         //Demo
         Route::get('/demo', [
             'as' => 'demo',
-            'uses' => 'FrontController@demo'
+            'uses' => 'InstallController@demo'
         ]);
 
     });
