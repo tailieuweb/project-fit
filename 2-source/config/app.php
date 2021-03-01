@@ -172,6 +172,7 @@ return [
         Foostart\Filemanager\FilemanagerServiceProvider::class,
         Intervention\Image\ImageServiceProvider::class,
         Foostart\Front\FrontServiceProvider::class,
+        Foostart\Contact\ContactServiceProvider::class,
 
         /*
          * Application Service Providers...

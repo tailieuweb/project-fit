@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "96b9ea7b9cb7942c96cd0116dafda9a8",
+    "content-hash": "54d3e45bf1c34d90b579e1895df27b8d",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -623,6 +623,48 @@
                 "source": "https://github.com/foostart/package-category/tree/10.0.6"
             },
             "time": "2021-03-01T03:57:40+00:00"
+        },
+        {
+            "name": "foostart/package-contact",
+            "version": "10.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/foostart/package-contact.git",
+                "reference": "20a43272db0790c9cdc0d699171dc71a157efceb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/foostart/package-contact/zipball/20a43272db0790c9cdc0d699171dc71a157efceb",
+                "reference": "20a43272db0790c9cdc0d699171dc71a157efceb",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Foostart\\Contact\\": "/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "FooStart",
+                    "email": "foostart.com@gmail.com",
+                    "homepage": "http://foostart.com"
+                }
+            ],
+            "description": "Create overview contact can intergrate other project",
+            "keywords": [
+                "foostart",
+                "laravel 5 package contact"
+            ],
+            "support": {
+                "issues": "https://github.com/foostart/package-contact/issues",
+                "source": "https://github.com/foostart/package-contact/tree/7.0.0"
+            },
+            "time": "2019-04-07T16:45:56+00:00"
         },
         {
             "name": "foostart/package-filemanager",

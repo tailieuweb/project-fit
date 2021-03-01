@@ -11,6 +11,7 @@
         "php": "^7.3|^8.0",
         "fideloper/proxy": "^4.4",
         "foostart/package-acl": "^10.0",
+        "foostart/package-contact": "^10.0",
         "foostart/package-front": "^10.0",
         "foostart/package-post": "^10.0",
         "fruitcake/laravel-cors": "^2.0",
