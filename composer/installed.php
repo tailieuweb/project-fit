@@ -151,6 +151,60 @@
       ),
       'reference' => 'df7933820090489623ce0be5e85c7e693638e536',
     ),
+    'foostart/package-acl' => 
+    array (
+      'pretty_version' => '10.0.5',
+      'version' => '10.0.5.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '10628f0a4cb0d2bb41a6b1f325fd84be8a81ef5d',
+    ),
+    'foostart/package-category' => 
+    array (
+      'pretty_version' => '10.0.6',
+      'version' => '10.0.6.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'b9f709385553284ae8e557cd8741bcba39edef31',
+    ),
+    'foostart/package-filemanager' => 
+    array (
+      'pretty_version' => '8.0.1',
+      'version' => '8.0.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '3bf781596178f047ad9b02ea698b15a504031af6',
+    ),
+    'foostart/package-post' => 
+    array (
+      'pretty_version' => '10.0.6',
+      'version' => '10.0.6.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '782c8aa2055959258fc0954eb3a595ca93bdac59',
+    ),
+    'foostart/package-sentry' => 
+    array (
+      'pretty_version' => '10.0.5',
+      'version' => '10.0.5.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '61dcb918ecefc7141c47de4c873866535189bf3d',
+    ),
+    'foostart/package-slideshow' => 
+    array (
+      'pretty_version' => '10.0.7',
+      'version' => '10.0.7.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '51917400e4fa97aa33cad85577b3d71ea99a7aaf',
+    ),
     'fruitcake/laravel-cors' => 
     array (
       'pretty_version' => 'v2.0.3',
@@ -168,6 +222,15 @@
       array (
       ),
       'reference' => '7e279d2cd5d7fbb156ce46daada972355cea27bb',
+    ),
+    'gregwar/captcha' => 
+    array (
+      'pretty_version' => 'v1.1.1',
+      'version' => '1.1.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '1240ab993ca713680573b2d4166900da5f758623',
     ),
     'guzzlehttp/guzzle' => 
     array (
@@ -422,6 +485,15 @@
         0 => 'v8.29.0',
       ),
     ),
+    'intervention/image' => 
+    array (
+      'pretty_version' => '2.5.1',
+      'version' => '2.5.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'abbf18d5ab8367f96b3205ca3c89fb2fa598c69e',
+    ),
     'kodova/hamcrest-php' => 
     array (
       'replaced' => 
@@ -464,6 +536,15 @@
       array (
       ),
       'reference' => 'daae1c43f1300fe88c05d83db6f3d8f76677ad88',
+    ),
+    'laravelcollective/html' => 
+    array (
+      'pretty_version' => 'v6.2.1',
+      'version' => '6.2.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'ae15b9c4bf918ec3a78f092b8555551dd693fde3',
     ),
     'league/commonmark' => 
     array (
