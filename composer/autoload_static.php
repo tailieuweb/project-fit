@@ -120,6 +120,8 @@ class ComposerStaticInit7997ba8f77937a83d1f609e4e7f1bcbb
         'M' => 
         array (
             'Monolog\\' => 8,
+            'MatthiasMullie\\PathConverter\\' => 29,
+            'MatthiasMullie\\Minify\\' => 22,
         ),
         'L' => 
         array (
@@ -148,6 +150,7 @@ class ComposerStaticInit7997ba8f77937a83d1f609e4e7f1bcbb
             'Fruitcake\\Cors\\' => 15,
             'Foostart\\Slideshow\\' => 19,
             'Foostart\\Post\\' => 14,
+            'Foostart\\Front\\' => 15,
             'Foostart\\Filemanager\\' => 21,
             'Foostart\\Category\\' => 18,
             'Foostart\\Acl\\' => 13,
@@ -383,6 +386,14 @@ class ComposerStaticInit7997ba8f77937a83d1f609e4e7f1bcbb
         array (
             0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
         ),
+        'MatthiasMullie\\PathConverter\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/matthiasmullie/path-converter/src',
+        ),
+        'MatthiasMullie\\Minify\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/matthiasmullie/minify/src',
+        ),
         'League\\MimeTypeDetection\\' => 
         array (
             0 => __DIR__ . '/..' . '/league/mime-type-detection/src',
@@ -447,6 +458,10 @@ class ComposerStaticInit7997ba8f77937a83d1f609e4e7f1bcbb
         'Foostart\\Post\\' => 
         array (
             0 => __DIR__ . '/..' . '/foostart/package-post',
+        ),
+        'Foostart\\Front\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/foostart/package-front',
         ),
         'Foostart\\Filemanager\\' => 
         array (
@@ -1663,6 +1678,16 @@ class ComposerStaticInit7997ba8f77937a83d1f609e4e7f1bcbb
         'Foostart\\Filemanager\\Middlewares\\CreateDefaultFolder' => __DIR__ . '/..' . '/foostart/package-filemanager/src/Middlewares/CreateDefaultFolder.php',
         'Foostart\\Filemanager\\Middlewares\\MultiUser' => __DIR__ . '/..' . '/foostart/package-filemanager/src/Middlewares/MultiUser.php',
         'Foostart\\Filemanager\\Traits\\LfmHelpers' => __DIR__ . '/..' . '/foostart/package-filemanager/src/Traits/LfmHelpers.php',
+        'Foostart\\Front\\Controllers\\AboutController' => __DIR__ . '/..' . '/foostart/package-front/Controllers/AboutController.php',
+        'Foostart\\Front\\Controllers\\FrontController' => __DIR__ . '/..' . '/foostart/package-front/Controllers/FrontController.php',
+        'Foostart\\Front\\Controllers\\HomeController' => __DIR__ . '/..' . '/foostart/package-front/Controllers/HomeController.php',
+        'Foostart\\Front\\Controllers\\RuleController' => __DIR__ . '/..' . '/foostart/package-front/Controllers/RuleController.php',
+        'Foostart\\Front\\Controllers\\RulesController' => __DIR__ . '/..' . '/foostart/package-front/Controllers/RulesController.php',
+        'Foostart\\Front\\Controllers\\SearchController' => __DIR__ . '/..' . '/foostart/package-front/Controllers/SearchController.php',
+        'Foostart\\Front\\Controllers\\SigninController' => __DIR__ . '/..' . '/foostart/package-front/Controllers/SigninController.php',
+        'Foostart\\Front\\FrontServiceProvider' => __DIR__ . '/..' . '/foostart/package-front/FrontServiceProvider.php',
+        'Foostart\\Front\\Models\\Front' => __DIR__ . '/..' . '/foostart/package-front/Models/Front.php',
+        'Foostart\\Front\\Validators\\FrontValidator' => __DIR__ . '/..' . '/foostart/package-front/Validators/FrontValidator.php',
         'Foostart\\Post\\Controllers\\Admin\\PostAdminController' => __DIR__ . '/..' . '/foostart/package-post/Controllers/Admin/PostAdminController.php',
         'Foostart\\Post\\Controllers\\Front\\PostFrontController' => __DIR__ . '/..' . '/foostart/package-post/Controllers/Front/PostFrontController.php',
         'Foostart\\Post\\Controllers\\User\\PostUserController' => __DIR__ . '/..' . '/foostart/package-post/Controllers/User/PostUserController.php',
@@ -3205,6 +3230,16 @@ class ComposerStaticInit7997ba8f77937a83d1f609e4e7f1bcbb
         'League\\MimeTypeDetection\\FinfoMimeTypeDetector' => __DIR__ . '/..' . '/league/mime-type-detection/src/FinfoMimeTypeDetector.php',
         'League\\MimeTypeDetection\\GeneratedExtensionToMimeTypeMap' => __DIR__ . '/..' . '/league/mime-type-detection/src/GeneratedExtensionToMimeTypeMap.php',
         'League\\MimeTypeDetection\\MimeTypeDetector' => __DIR__ . '/..' . '/league/mime-type-detection/src/MimeTypeDetector.php',
+        'MatthiasMullie\\Minify\\CSS' => __DIR__ . '/..' . '/matthiasmullie/minify/src/CSS.php',
+        'MatthiasMullie\\Minify\\Exception' => __DIR__ . '/..' . '/matthiasmullie/minify/src/Exception.php',
+        'MatthiasMullie\\Minify\\Exceptions\\BasicException' => __DIR__ . '/..' . '/matthiasmullie/minify/src/Exceptions/BasicException.php',
+        'MatthiasMullie\\Minify\\Exceptions\\FileImportException' => __DIR__ . '/..' . '/matthiasmullie/minify/src/Exceptions/FileImportException.php',
+        'MatthiasMullie\\Minify\\Exceptions\\IOException' => __DIR__ . '/..' . '/matthiasmullie/minify/src/Exceptions/IOException.php',
+        'MatthiasMullie\\Minify\\JS' => __DIR__ . '/..' . '/matthiasmullie/minify/src/JS.php',
+        'MatthiasMullie\\Minify\\Minify' => __DIR__ . '/..' . '/matthiasmullie/minify/src/Minify.php',
+        'MatthiasMullie\\PathConverter\\Converter' => __DIR__ . '/..' . '/matthiasmullie/path-converter/src/Converter.php',
+        'MatthiasMullie\\PathConverter\\ConverterInterface' => __DIR__ . '/..' . '/matthiasmullie/path-converter/src/ConverterInterface.php',
+        'MatthiasMullie\\PathConverter\\NoConverter' => __DIR__ . '/..' . '/matthiasmullie/path-converter/src/NoConverter.php',
         'MigrationCartalystSentryInstallThrottle' => __DIR__ . '/..' . '/foostart/package-acl/database/migrations/2021_02_24_225988_migration_cartalyst_sentry_install_throttle.php',
         'Mockery' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery.php',
         'Mockery\\Adapter\\Phpunit\\MockeryPHPUnitIntegration' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryPHPUnitIntegration.php',

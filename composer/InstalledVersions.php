@@ -29,7 +29,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '0750afed62c5e989fa11a2d1be3c373833e12e9b',
+    'reference' => '6fdd205cb4fc3afe0c627af2ebb9a8e9d4ee461a',
     'name' => 'laravel/laravel',
   ),
   'versions' => 
@@ -200,6 +200,15 @@ private static $installed = array (
       array (
       ),
       'reference' => '3bf781596178f047ad9b02ea698b15a504031af6',
+    ),
+    'foostart/package-front' => 
+    array (
+      'pretty_version' => '10.0.0',
+      'version' => '10.0.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '068dd8c80a16b91549528c3d6c1caac664f5a278',
     ),
     'foostart/package-post' => 
     array (
@@ -540,7 +549,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '0750afed62c5e989fa11a2d1be3c373833e12e9b',
+      'reference' => '6fdd205cb4fc3afe0c627af2ebb9a8e9d4ee461a',
     ),
     'laravel/sail' => 
     array (
@@ -595,6 +604,24 @@ private static $installed = array (
       array (
       ),
       'reference' => '3b9dff8aaf7323590c1d2e443db701eb1f9aa0d3',
+    ),
+    'matthiasmullie/minify' => 
+    array (
+      'pretty_version' => '1.3.66',
+      'version' => '1.3.66.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '45fd3b0f1dfa2c965857c6d4a470bea52adc31a6',
+    ),
+    'matthiasmullie/path-converter' => 
+    array (
+      'pretty_version' => '1.1.3',
+      'version' => '1.1.3.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'e7d13b2c7e2f2268e1424aaed02085518afa02d9',
     ),
     'mockery/mockery' => 
     array (
