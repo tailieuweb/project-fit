@@ -171,6 +171,7 @@ return [
         Foostart\Slideshow\SlideshowServiceProvider::class,
         Foostart\Filemanager\FilemanagerServiceProvider::class,
         Intervention\Image\ImageServiceProvider::class,
+        Foostart\Front\FrontServiceProvider::class,
 
         /*
          * Application Service Providers...
