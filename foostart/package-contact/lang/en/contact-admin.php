@@ -33,6 +33,7 @@ return [
         'config' => 'Configurations',
         'lang' => 'Languages',
         'category' => 'Categories',
+        'sample' => 'Sample'
     ],
 
 
@@ -99,6 +100,7 @@ return [
         'delete' => 'Delete',
         'delete-in-trash' => 'In trash',
         'delete-forever' => 'Forever',
+        'sent' => 'Sent'
     ],
 
 
