@@ -50,6 +50,7 @@ return [
     'columns' => [
         'order' => 'Order',
         '#' => '#',
+        'counter' => '#',
         'id' => 'Id',
         'name' => 'Contact name',
         'operations' => 'Operations',
@@ -228,6 +229,7 @@ return [
         'message'        => 'Message',
         'answer'        => 'Answer',
         'title'        => 'Title',
+        'phone' => 'Phone'
     ],
 
 
