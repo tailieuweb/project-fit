@@ -1,7 +1,7 @@
 @if(!empty($items) && (!$items->isEmpty()) )
 <?php
     $withs = [
-        '#' => '10%',
+        'counter' => '10%',
         'order' => '5%',
         'id' => '5%',
         'category_name' => '30%',
@@ -29,7 +29,7 @@
         <tr style="height: 50px;">
 
             <!--COUNTER-->
-            <th style='width:{{ $withs['#'] }}'>
+            <th style='width:{{ $withs['counter'] }}'>
                 {{ trans($plang_admin.'.columns.#') }}
                 <span class="del-checkbox pull-right">
                     <input type="checkbox" id="selecctall" />
