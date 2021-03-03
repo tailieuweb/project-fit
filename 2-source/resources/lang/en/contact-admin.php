@@ -149,7 +149,7 @@ return [
         'not-found' => 'Not found items',
         'config' => 'List of configurations',
         'lang' => 'List of languages',
-        'contact-status' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+        'status' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
         'member'    => 'Search member',
         'email'    => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
         'message'    => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
