@@ -13,6 +13,7 @@
         "foostart/package-acl": "^10.0",
         "foostart/package-contact": "^10.0",
         "foostart/package-front": "^10.0",
+        "foostart/package-pexcel": "^10.0",
         "foostart/package-post": "^10.0",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",

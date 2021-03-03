@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "54d3e45bf1c34d90b579e1895df27b8d",
+    "content-hash": "e5836be61244261ce22421558aebf105",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -782,6 +782,48 @@
                 "source": "https://github.com/foostart/package-front/tree/10.0.0"
             },
             "time": "2020-12-22T07:16:07+00:00"
+        },
+        {
+            "name": "foostart/package-pexcel",
+            "version": "10.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/foostart/package-pexcel.git",
+                "reference": "1095439175a7b4dae952df08d72c5583dcb83579"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/foostart/package-pexcel/zipball/1095439175a7b4dae952df08d72c5583dcb83579",
+                "reference": "1095439175a7b4dae952df08d72c5583dcb83579",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Foostart\\Pexcel\\": "/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "FooStart",
+                    "email": "foostart.com@gmail.com",
+                    "homepage": "http://foostart.com"
+                }
+            ],
+            "description": "Create overview pexcel can intergrate other project",
+            "keywords": [
+                "foostart",
+                "laravel 5 package pexcel"
+            ],
+            "support": {
+                "issues": "https://github.com/foostart/package-pexcel/issues",
+                "source": "https://github.com/foostart/package-pexcel/tree/10.0.0"
+            },
+            "time": "2020-12-23T08:59:48+00:00"
         },
         {
             "name": "foostart/package-post",
