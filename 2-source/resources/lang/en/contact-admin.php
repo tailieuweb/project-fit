@@ -196,7 +196,8 @@ return [
         'user-id'   => 'ID',
         'last-name' => 'Last name',
         'first-name'    => 'First name',
-        'contact_status' => 'status',
+        'status' => 'Status',
+        'title' => 'Title',
     ],
 
 
