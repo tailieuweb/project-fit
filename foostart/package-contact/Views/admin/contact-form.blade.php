@@ -53,7 +53,7 @@
                     @include('package-category::admin.partials.input_text', [
                         'name' => 'contact_name',
                         'label' => trans($plang_admin.'.labels.name'),
-                        'value' => @$itemds->contact_name,
+                        'value' => @$item->contact_name,
                         'description' => trans($plang_admin.'.descriptions.name'),
                         'errors' => $errors,
                     ])
@@ -65,7 +65,7 @@
                     @include('package-category::admin.partials.input_text', [
                         'name' => 'contact_email',
                         'label' => trans($plang_admin.'.labels.email'),
-                        'value' => @$itemds->contact_email,
+                        'value' => @$item->contact_email,
                         'description' => trans($plang_admin.'.descriptions.email'),
                         'errors' => $errors,
                     ])
@@ -81,6 +81,18 @@
                         'description' => trans($plang_admin.'.descriptions.contact-phone'),
                     ])
                 </div>
+                
+                <div class="col-md-6">
+                    <!--STATUS-->
+                    @include('package-category::admin.partials.select_single', [
+                        'name' => 'status',
+                        'label' => trans($plang_admin.'.form.status'),
+                        'value' => @$item->status,
+                        'items' => $status,
+                        'description' => trans($plang_admin.'.descriptions.status'),
+                    ])
+                    <!--/STATUS-->
+                </div>
             </div>
             
              <!--DESCRIPTION-->
@@ -89,7 +101,7 @@
                 'label' => trans($plang_admin.'.labels.description'),
                 'value' => @$item->contact_description,
                 'description' => trans($plang_admin.'.descriptions.description'),
-                'rows' => 50,
+                'rows' => 25,
                 'tinymce' => true,
                 'errors' => $errors,
             ])

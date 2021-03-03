@@ -1,10 +1,10 @@
 @if(!empty($items) && (!$items->isEmpty()) )
 <?php
     $withs = [
-        'counter' => '5%',
-        'id' => '5%',        
+        'counter' => '10%',
+        'id' => '10%',        
         'title' => '20%',
-        'status' => '10%',
+        'status' => '15%',
         'updated_at' => '20%',
         'operations' => '10%',
     ];
@@ -64,7 +64,7 @@
             </th>
 
             <!--STATUS-->
-            <?php $name = 'contact_status' ?>
+            <?php $name = 'status' ?>
             <th class="hidden-xs text-center" style='width:{{ $withs['status'] }}'>{!! trans($plang_admin.'.columns.status') !!}
                 <a href='{!! $sorting["url"][$name] !!}' class='tb-id' data-order='asc'>
                     @if($sorting['items'][$name] == 'asc')
@@ -134,10 +134,8 @@
 
                 <!--STATUS-->
                 <td style="text-align: center;">
-
-                    <?php $status = config('package-contact.status'); ?>
-                    @if($item->contact_status && (isset($status['list'][$item->contact_status])))
-                        <i class="fa fa-circle" style="color:{!! $status['color'][$item->contact_status] !!}" title='{!! $status["list"][$item->contact_status] !!}'></i>
+                    @if($item->status && (isset($config_status['list'][$item->status])))
+                        <i class="fa fa-circle" style="color:{!! $config_status['color'][$item->status] !!}" title='{!! $config_status["list"][$item->status] !!}'></i>
                     @else
                     <i class="fa fa-circle-o red" title='{!! trans($plang_admin.".labels.unknown") !!}'></i>
                     @endif

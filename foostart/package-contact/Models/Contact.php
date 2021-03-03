@@ -272,9 +272,6 @@ class Contact extends FooModel {
 
         $dataFields = $this->getDataFields($params, $this->fields);
 
-     
-
-
         $item = self::create($dataFields);
 
         $key = $this->primaryKey;
