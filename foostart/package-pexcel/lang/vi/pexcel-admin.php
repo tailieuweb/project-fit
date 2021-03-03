@@ -10,7 +10,7 @@ return [
     |
     */
     'menus' => [
-        'top-menu' => 'Contacts'
+        'top-menu' => 'Pexcels'
     ],
 
 
@@ -32,8 +32,6 @@ return [
         'trash' => 'Trash',
         'config' => 'Configurations',
         'lang' => 'Languages',
-        'category' => 'Categories',
-        'sample' => 'Sample'
     ],
 
 
@@ -48,20 +46,11 @@ return [
     |
     */
     'columns' => [
-        'order' => 'Order',
-        '#' => '#',
-        'counter' => '#',
-        'id' => 'Id',
-        'name' => 'Contact name',
+        'order' => '#',
+        'name' => 'Pexcel name',
         'operations' => 'Operations',
         'updated_at' => 'Updated at',
         'filename' => 'File name',
-        'status'    => 'Status',
-        'user_id_assigner' => 'User ID Assigner',
-        'answer' => 'Answer',
-        'title' => 'Title',
-        'email' => 'Email',
-        'message' => 'Message',
     ],
 
 
@@ -73,13 +62,13 @@ return [
     |
     */
     'pages' => [
-        'title-list' => 'List of contacts',
+        'title-list' => 'List of pexcels',
         'title-list-search' => 'Search results',
-        'title-edit' => 'Edit contact',
-        'title-add' => 'Add new contact',
-        'title-delete' => 'Delete contact',
+        'title-edit' => 'Edit pexcel',
+        'title-add' => 'Add new pexcel',
+        'title-delete' => 'Delete pexcel',
         'title-config' => 'Current configurations',
-        'title-lang' => 'Manage list of languages',
+        'title-lang' => 'Manage languages',
     ],
 
 
@@ -99,9 +88,6 @@ return [
         'add' => 'Add',
         'save' => 'Save',
         'delete' => 'Delete',
-        'delete-in-trash' => 'In trash',
-        'delete-forever' => 'Forever',
-        'sent' => 'Sent'
     ],
 
 
@@ -134,27 +120,25 @@ return [
     | Description
     |
     */
-    'descriptions' => [
-        'form' => 'Contact form',
-        'update' => 'Update contact',
-        'name' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-        'category' => 'Click <a href=":href">here</a> to manage list of categories by token.',
-        'overview' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-        'description' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-        'image' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-        'files' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+    'description' => [
+        'form' => 'Pexcel form',
+        'update' => 'Update pexcel',
+        'name' => '<blockquote class="quote-card">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              </p>
+            </blockquote>',
+        'category' => '<blockquote class="quote-card">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              </p>
+            </blockquote>',
         'list' => 'List of items',
         'counters' => 'There are <b>:number</b> items',
         'counter' => 'There is <b>:number</b> item',
         'not-found' => 'Not found items',
         'config' => 'List of configurations',
         'lang' => 'List of languages',
-        'status' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-        'member'    => 'Search member',
-        'email'    => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-        'message'    => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-        'answer'    => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-        'title'    => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
     ],
 
 
@@ -170,8 +154,7 @@ return [
     */
     'errors' => [
         'required' => ':attribute is required',
-        'required_length' => '<b> :attribute </b> allows from: <b>:minlength</b> to <b>:maxlength</b> characters.',
-        'required_min_length' =>'<b> :attribute </b> allows from: <b>:minlength</b> characters.',
+        'required_length' => 'Allow from: <b>:minlength</b> to <b>:maxlength</b>. characters',
     ],
 
 
@@ -187,17 +170,12 @@ return [
     |
     */
     'fields' => [
-        'id' => 'Contact ID',
-        'name' => 'Contact name',
-        'description' => 'Contact description',
-        'overview' => 'Contact overview',
+        'id' => 'Pexcel ID',
+        'name' => 'Pexcel name',
+        'description' => 'Description',
+        'overview' => 'Overview',
         'slug' => 'Slug',
-        'updated_at' => 'Updated at',
-        'user-id'   => 'ID',
-        'last-name' => 'Last name',
-        'first-name'    => 'First name',
-        'status' => 'Status',
-        'title' => 'Title',
+        'updated_at' => 'Updated at'
     ],
 
 
@@ -213,24 +191,11 @@ return [
     |
     */
     'labels' => [
-        'name' => 'Contact name',
-        'overview' => 'Contact overview',
-        'description' => 'Contact description',
-        'image' => 'Contact image',
-        'files' => 'Contact files',
+        'name' => 'Pexcel name',
         'category' => 'Category name',
-        'title-search' => 'Search contact',
+        'title-search' => 'Search pexcel',
         'title-backup' => 'Backups',
         'config' => 'Configurations',
-        'contact-status'    => 'Status',
-        'assigner'        => 'Add assigner',
-        'search'        => 'Search User Data',
-        'total-data'    => 'Total Data :',
-        'email'        => 'Email',
-        'message'        => 'Message',
-        'answer'        => 'Answer',
-        'title'        => 'Title',
-        'phone' => 'Phone'
     ],
 
 
@@ -247,20 +212,13 @@ return [
     |
       */
     'tabs' => [
-        'menu-1' => 'Basic',
-        'menu-2' => 'Advance',
-        'menu-3' => 'Other',
-        'menu-4' => 'Assigner',
-        'menu-5' => 'Answer',
-        'menu-6' => 'Menu 6',
-        'menu-7' => 'Menu 7',
-        'menu-8' => 'Menu 8',
-        'menu-9' => 'Menu 9',
-        'menu-9' => 'Menu 9',
-        'guide'  => 'Guide',
-        'other'  => 'Other',
-        'basic'  => 'Basic',
-        'advance' => 'Advance',
+        'menu_1' => 'Basic',
+        'menu_2' => 'Advance',
+        'menu_3' => 'Other',
+        'menu_4' => 'Other',
+        'menu_5' => 'Other',
+        'menu_6' => 'Other',
+        'menu_7' => 'Other',
     ],
 
 
@@ -277,8 +235,8 @@ return [
     |
     */
     'headings' => [
-        'form-search' => 'Search contacts',
-        'list' => 'List of contacts',
+        'form-search' => 'Search pexcels',
+        'list' => 'List of pexcels',
         'search' => 'Search results',
     ],
 

@@ -1,4 +1,4 @@
-@extends('package-acl::admin.layouts.base-2cols')
+@extends('laravel-authentication-acl::admin.layouts.base-2cols')
 
 @section('title')
     {{ trans($plang_admin.'.pages.title-list') }}
@@ -10,7 +10,7 @@
         <div class="col-md-12">
 
             <!--LIST OF ITEMS-->
-            <div class="col-md-9">
+            <div class="col-md-8">
 
                 <div class="panel panel-info">
 
@@ -46,9 +46,9 @@
 
                     <!--BODY-->
                     <div class="panel-body">
-                        {!! Form::open(['route'=>['contacts.delete', 'id' => @$item->id], 'method' => 'get'])  !!}
+                        {!! Form::open(['route'=>['pexcels.delete', 'id' => @$item->id], 'method' => 'get'])  !!}
 
-                            @include('package-contact::admin.contact-item')
+                            @include('package-pexcel::admin.pexcel-view-item')
 
                             {!! csrf_field(); !!}
 
@@ -61,8 +61,8 @@
             <!--/LIST OF ITEMS-->
 
             <!--SEARCH-->
-            <div class="col-md-3">
-                @include('package-contact::admin.contact-search')
+            <div class="col-md-4">
+                @include('package-pexcel::admin.pexcel-search')
             </div>
             <!--/SEARCH-->
 

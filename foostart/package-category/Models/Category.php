@@ -6,7 +6,7 @@ use Foostart\Category\Models\Context;
 
 class Category extends FooModel {
 
-    public $courses = NULL;
+     public $courses = NULL;
 
     public $isTree;
     /**

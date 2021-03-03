@@ -150,6 +150,7 @@ class ComposerStaticInit7997ba8f77937a83d1f609e4e7f1bcbb
             'Fruitcake\\Cors\\' => 15,
             'Foostart\\Slideshow\\' => 19,
             'Foostart\\Post\\' => 14,
+            'Foostart\\Pexcel\\' => 16,
             'Foostart\\Front\\' => 15,
             'Foostart\\Filemanager\\' => 21,
             'Foostart\\Contact\\' => 17,
@@ -460,6 +461,10 @@ class ComposerStaticInit7997ba8f77937a83d1f609e4e7f1bcbb
         array (
             0 => __DIR__ . '/..' . '/foostart/package-post',
         ),
+        'Foostart\\Pexcel\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/foostart/package-pexcel',
+        ),
         'Foostart\\Front\\' => 
         array (
             0 => __DIR__ . '/..' . '/foostart/package-front',
@@ -753,6 +758,7 @@ class ComposerStaticInit7997ba8f77937a83d1f609e4e7f1bcbb
         'Cron\\MonthField' => __DIR__ . '/..' . '/dragonmantank/cron-expression/src/Cron/MonthField.php',
         'Database\\Factories\\UserFactory' => __DIR__ . '/../..' . '/database/factories/UserFactory.php',
         'Database\\Seeders\\CategorySeeder' => __DIR__ . '/../..' . '/database/seeders/CategorySeeder.php',
+        'Database\\Seeders\\ContactsSeeder' => __DIR__ . '/../..' . '/database/seeders/ContactsSeeder.php',
         'Database\\Seeders\\ContextSeeder' => __DIR__ . '/../..' . '/database/seeders/ContextSeeder.php',
         'Database\\Seeders\\DatabaseSeeder' => __DIR__ . '/../..' . '/database/seeders/DatabaseSeeder.php',
         'Database\\Seeders\\PostsSeeder' => __DIR__ . '/../..' . '/database/seeders/PostsSeeder.php',
@@ -1704,6 +1710,13 @@ class ComposerStaticInit7997ba8f77937a83d1f609e4e7f1bcbb
         'Foostart\\Front\\FrontServiceProvider' => __DIR__ . '/..' . '/foostart/package-front/FrontServiceProvider.php',
         'Foostart\\Front\\Models\\Front' => __DIR__ . '/..' . '/foostart/package-front/Models/Front.php',
         'Foostart\\Front\\Validators\\FrontValidator' => __DIR__ . '/..' . '/foostart/package-front/Validators/FrontValidator.php',
+        'Foostart\\Pexcel\\Controllers\\Admin\\PexcelAdminController' => __DIR__ . '/..' . '/foostart/package-pexcel/Controllers/Admin/PexcelAdminController.php',
+        'Foostart\\Pexcel\\Helper\\PexcelParser' => __DIR__ . '/..' . '/foostart/package-pexcel/Helper/PexcelParser.php',
+        'Foostart\\Pexcel\\Models\\Pexcel' => __DIR__ . '/..' . '/foostart/package-pexcel/Models/Pexcel.php',
+        'Foostart\\Pexcel\\PexcelServiceProvider' => __DIR__ . '/..' . '/foostart/package-pexcel/PexcelServiceProvider.php',
+        'Foostart\\Pexcel\\Validators\\PexcelAdminValidator' => __DIR__ . '/..' . '/foostart/package-pexcel/Validators/PexcelAdminValidator.php',
+        'Foostart\\Pexcel\\Validators\\PexcelCategoryAdminValidator' => __DIR__ . '/..' . '/foostart/package-pexcel/Validators/PexcelCategoryAdminValidator.php',
+        'Foostart\\Pexcel\\Validators\\PexcelValidator' => __DIR__ . '/..' . '/foostart/package-pexcel/Validators/PexcelValidator.php',
         'Foostart\\Post\\Controllers\\Admin\\PostAdminController' => __DIR__ . '/..' . '/foostart/package-post/Controllers/Admin/PostAdminController.php',
         'Foostart\\Post\\Controllers\\Front\\PostFrontController' => __DIR__ . '/..' . '/foostart/package-post/Controllers/Front/PostFrontController.php',
         'Foostart\\Post\\Controllers\\User\\PostUserController' => __DIR__ . '/..' . '/foostart/package-post/Controllers/User/PostUserController.php',

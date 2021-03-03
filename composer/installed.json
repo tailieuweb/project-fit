@@ -1182,6 +1182,51 @@
             "install-path": "../foostart/package-front"
         },
         {
+            "name": "foostart/package-pexcel",
+            "version": "10.0.0",
+            "version_normalized": "10.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/foostart/package-pexcel.git",
+                "reference": "1095439175a7b4dae952df08d72c5583dcb83579"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/foostart/package-pexcel/zipball/1095439175a7b4dae952df08d72c5583dcb83579",
+                "reference": "1095439175a7b4dae952df08d72c5583dcb83579",
+                "shasum": ""
+            },
+            "time": "2020-12-23T08:59:48+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Foostart\\Pexcel\\": "/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "FooStart",
+                    "email": "foostart.com@gmail.com",
+                    "homepage": "http://foostart.com"
+                }
+            ],
+            "description": "Create overview pexcel can intergrate other project",
+            "keywords": [
+                "foostart",
+                "laravel 5 package pexcel"
+            ],
+            "support": {
+                "issues": "https://github.com/foostart/package-pexcel/issues",
+                "source": "https://github.com/foostart/package-pexcel/tree/10.0.0"
+            },
+            "install-path": "../foostart/package-pexcel"
+        },
+        {
             "name": "foostart/package-post",
             "version": "10.0.7",
             "version_normalized": "10.0.7.0",

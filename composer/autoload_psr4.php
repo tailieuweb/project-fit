@@ -72,6 +72,7 @@ return array(
     'Fruitcake\\Cors\\' => array($vendorDir . '/fruitcake/laravel-cors/src'),
     'Foostart\\Slideshow\\' => array($vendorDir . '/foostart/package-slideshow'),
     'Foostart\\Post\\' => array($vendorDir . '/foostart/package-post'),
+    'Foostart\\Pexcel\\' => array($vendorDir . '/foostart/package-pexcel'),
     'Foostart\\Front\\' => array($vendorDir . '/foostart/package-front'),
     'Foostart\\Filemanager\\' => array($vendorDir . '/foostart/package-filemanager/src'),
     'Foostart\\Contact\\' => array($vendorDir . '/foostart/package-contact'),

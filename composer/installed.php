@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => '1e1d4acd1f15610ffe0844517faeded4b8835bd2',
+    'reference' => 'ed411fec3462d1f9c6466fcbaa37a2db1d53a75c',
     'name' => 'laravel/laravel',
   ),
   'versions' => 
@@ -195,6 +195,15 @@
       array (
       ),
       'reference' => '068dd8c80a16b91549528c3d6c1caac664f5a278',
+    ),
+    'foostart/package-pexcel' => 
+    array (
+      'pretty_version' => '10.0.0',
+      'version' => '10.0.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '1095439175a7b4dae952df08d72c5583dcb83579',
     ),
     'foostart/package-post' => 
     array (
@@ -535,7 +544,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => '1e1d4acd1f15610ffe0844517faeded4b8835bd2',
+      'reference' => 'ed411fec3462d1f9c6466fcbaa37a2db1d53a75c',
     ),
     'laravel/sail' => 
     array (

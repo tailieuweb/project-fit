@@ -231,6 +231,8 @@ return [
         'context-status' => 'Status',
         'user_full_name' => 'User full name',
         'contact_status' => 'Status',
+        'title' => 'Title',
+        'status' => 'Status'
     ],
 
 
