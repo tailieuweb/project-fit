@@ -10,10 +10,7 @@ return [
     |
     */
     'menus' => [
-        'top-menu' => 'Categories',
-        'top-menu-contexts' => 'Contexts',
-        'category' => 'Categories',
-        'context' => 'Context',
+        'top-menu' => 'Contacts'
     ],
 
 
@@ -49,22 +46,11 @@ return [
     |
     */
     'columns' => [
-        'any'   => 'Any',
-        'order' => 'Order',
-        'counter' => '#',
-        'id'    => 'ID',
-        'category-name' => 'Category name',
-        'user-full-name' => 'User full name',
-        'context-name' => 'Context name',
+        'order' => '#',
+        'name' => 'Contact name',
         'operations' => 'Operations',
         'updated_at' => 'Updated at',
         'filename' => 'File name',
-        'context-ref' => 'Ref',
-        'context-status' => 'Status',
-        'key' => 'Key',
-        'status' => 'Status',
-        '#' => '#',
-        'url' => 'Url',
     ],
 
 
@@ -76,16 +62,11 @@ return [
     |
     */
     'pages' => [
-        'title-list' => 'List of categories',
-        'title-list-context' => 'List of contexts',
+        'title-list' => 'List of contacts',
         'title-list-search' => 'Search results',
-        'title-edit' => 'Edit category',
-        'title-edit-context' => 'Edit context',
-        'title-edit-category' => 'Edit category',
-        'title-add' => 'Add new category',
-        'title-add-context' => 'Add new context',
-        'title-delete' => 'Delete category',
-        'title-delete-context' => 'Delete context',
+        'title-edit' => 'Edit contact',
+        'title-add' => 'Add new contact',
+        'title-delete' => 'Delete contact',
         'title-config' => 'Current configurations',
         'title-lang' => 'Manage languages',
     ],
@@ -107,27 +88,6 @@ return [
         'add' => 'Add',
         'save' => 'Save',
         'delete' => 'Delete',
-        'remove' => 'Remove',
-        'upload' => 'Upload',
-        'delete-in-trash' => 'In trash',
-        'delete-forever' => 'Forever',
-        'undo' => 'Undo',
-    ],
-
-
-
-
-
-    /*
-    |-----------------------------------------------------------------------
-    | Hint
-    |-----------------------------------------------------------------------
-    | The list of hint
-    |
-    */
-    'hint'  => [
-        'delete-forever' => 'Delete forever',
-        'delete-in-trash' => 'Delete in trash',
     ],
 
 
@@ -160,32 +120,25 @@ return [
     | Description
     |
     */
-    'descriptions' => [
-        'category-form' => 'Category form',
-        'overview' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-        'description' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-        'context-form' => 'Context form',
-        'update' => 'Update category',
-        'category-name' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-        'category' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+    'description' => [
+        'form' => 'Contact form',
+        'update' => 'Update contact',
+        'name' => '<blockquote class="quote-card">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              </p>
+            </blockquote>',
+        'category' => '<blockquote class="quote-card">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              </p>
+            </blockquote>',
         'list' => 'List of items',
         'counters' => 'There are <b>:number</b> items',
         'counter' => 'There is <b>:number</b> item',
         'not-found' => 'Not found items',
         'config' => 'List of configurations',
         'lang' => 'List of languages',
-        'category-slug' =>'Category Slug',
-        'context-name' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-        'context-ref' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-        'context-key' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-        'context-status' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-        'status' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-        'category-url' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-        'category-order' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-        'category-parent' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-        'category-image' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-        'category-icon' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-        'category-status' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
     ],
 
 
@@ -202,8 +155,6 @@ return [
     'errors' => [
         'required' => ':attribute is required',
         'required_length' => 'Allow from: <b>:minlength</b> to <b>:maxlength</b>. characters',
-        'required_min_length' => 'Allow from: <b>:minlength</b> characters',
-        'required_max_length' => 'Allow max: <b>:minlength</b> characters',
     ],
 
 
@@ -219,18 +170,12 @@ return [
     |
     */
     'fields' => [
-        'id' => 'Category ID',
-        'name' => 'Category name',
-        'name-context' => 'Context name',
+        'id' => 'Contact ID',
+        'name' => 'Contact name',
         'description' => 'Description',
         'overview' => 'Overview',
         'slug' => 'Slug',
-        'updated_at' => 'Updated at',
-        'context-ref' => 'Ref',
-        'context-name' => 'Name',
-        'context-status' => 'Status',
-        'user_full_name' => 'User full name',
-        'contact_status' => 'Status',
+        'updated_at' => 'Updated at'
     ],
 
 
@@ -246,37 +191,11 @@ return [
     |
     */
     'labels' => [
-        'category-name' => 'Category name',
-        'overview' => 'Overview',
-        'description' => 'Description',
-        'context-name' => 'Context name',
+        'name' => 'Contact name',
         'category' => 'Category name',
-        'context' => 'Context name',
-        'title-search' => 'Search category',
-        'title-search-context' => 'Search contexts',
+        'title-search' => 'Search contact',
         'title-backup' => 'Backups',
         'config' => 'Configurations',
-
-        'context_name' => 'Context name',
-        'sorting' => 'Sorting',
-        'status' => 'Status',
-
-        'context-ref' => 'References',
-        'context-key' => 'Context key',
-        'context-status' => 'Status',
-        'unknown' => 'Unknown',
-        'category-slug' =>'Category Slug',
-        'category-url' => 'Category URL',
-        'category-order' => 'Category order',
-        'category-parent' => 'Category parent',
-        'image' => 'Image',
-        'category-icon' => 'Category icon',
-    ],
-
-    'checkboxs' => [
-        'context-key' => [
-            'add' => 'Regenerate new key',
-        ]
     ],
 
 
@@ -296,17 +215,10 @@ return [
         'menu_1' => 'Basic',
         'menu_2' => 'Advance',
         'menu_3' => 'Other',
-        'menu_4' => 'Menu 4',
-        'menu_5' => 'Menu 5',
-        'menu_6' => 'Menu 6',
-        'menu_7' => 'Menu 7',
-        'menu_8' => 'Menu 8',
-        'menu_9' => 'Menu 9',
-        'menu_9' => 'Menu 9',
-        'guide'  => 'Guide',
-        'other'  => 'Other',
-        'basic'  => 'Basic',
-        'advance' => 'Advance',
+        'menu_4' => 'Other',
+        'menu_5' => 'Other',
+        'menu_6' => 'Other',
+        'menu_7' => 'Other',
     ],
 
 
@@ -323,8 +235,8 @@ return [
     |
     */
     'headings' => [
-        'form-search' => 'Search categorys',
-        'list' => 'List of categorys',
+        'form-search' => 'Search contacts',
+        'list' => 'List of contacts',
         'search' => 'Search results',
     ],
 
@@ -365,23 +277,5 @@ return [
         'edit-error' => 'Edit item failed',
         'delete-ok' => 'Delete item successfully',
         'delete-error' => 'Delete item failed',
-    ],
-
-
-
-
-
-    /*
-    |-----------------------------------------------------------------------
-    | SEARCH
-    |-----------------------------------------------------------------------
-    |
-    |
-    |
-    |
-    */
-    'order' => [
-        'by-asc' => 'ASC',
-        'by-des' => 'DES',
     ],
 ];
