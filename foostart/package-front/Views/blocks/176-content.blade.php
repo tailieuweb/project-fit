@@ -1,10 +1,6 @@
 
 <div class="type-176">
-    <div class="container event">
-        <div class="row">
-            <!--LEFT SIDE BAR-->
-            <div class="col-md-4">
-                <!--WIDGET TOP EVENTS-->
+    <div class="event">
                 <div>
                     <div class="panel panel-default">
                         <div class="panel-heading">
@@ -22,11 +18,6 @@
                         <div class="crossedbg"></div>
                     </div>	<div class="divider"></div>
                 </div>	<div class="divider"></div>
-            </div>
-        </div>
         <!--/END WIDGET TOP EVENTS-->
     </div>
-    <!--/END LEFT SIDE BAR-->
-    <!--RIGHT SIDE BAR-->
-    <!--/END RIGHT SIDE BAR-->
 </div>
