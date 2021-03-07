@@ -1711,6 +1711,7 @@ class ComposerStaticInit7997ba8f77937a83d1f609e4e7f1bcbb
         'Foostart\\Front\\Models\\Front' => __DIR__ . '/..' . '/foostart/package-front/Models/Front.php',
         'Foostart\\Front\\Validators\\FrontValidator' => __DIR__ . '/..' . '/foostart/package-front/Validators/FrontValidator.php',
         'Foostart\\Pexcel\\Controllers\\Admin\\PexcelAdminController' => __DIR__ . '/..' . '/foostart/package-pexcel/Controllers/Admin/PexcelAdminController.php',
+        'Foostart\\Pexcel\\Controllers\\User\\PexcelUserController' => __DIR__ . '/..' . '/foostart/package-pexcel/Controllers/User/PexcelUserController.php',
         'Foostart\\Pexcel\\Helper\\PexcelParser' => __DIR__ . '/..' . '/foostart/package-pexcel/Helper/PexcelParser.php',
         'Foostart\\Pexcel\\Models\\Pexcel' => __DIR__ . '/..' . '/foostart/package-pexcel/Models/Pexcel.php',
         'Foostart\\Pexcel\\PexcelServiceProvider' => __DIR__ . '/..' . '/foostart/package-pexcel/PexcelServiceProvider.php',

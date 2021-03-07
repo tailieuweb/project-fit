@@ -89,6 +89,9 @@ class FrontServiceProvider extends ServiceProvider {
             __DIR__ . '/public/images' => public_path('images'),
             __DIR__ . '/public/fonts' => public_path('packages/foostart/package-front/fonts'),
         ]);
+//        $this->publishes([
+//            __DIR__ . '/public/images' => public_path('packages/foostart/package-front/images'),
+//        ]);
     }
 
 }

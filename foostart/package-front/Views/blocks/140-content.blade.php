@@ -1,16 +1,4 @@
-<?php
-$url_host = $_SERVER['HTTP_HOST'];
 
-$pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
-
-$pattern_uri = '/' . $pattern_document_root . '(.*)$/';
-
-preg_match_all($pattern_uri, __DIR__, $matches);
-
-$url_path = $url_host . $matches[1][0];
-
-$url_path = str_replace('\\', '/', $url_path);
-?>
 <div class="type-140">
     <div class="container content">
         <div class="row">
@@ -33,7 +21,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 </div>
                                 <div class="col-md-6 col-md-6 col-sm-6 col-xs-12 right">
                                     <a href="#">
-                                        <img alt="Khoa Công nghệ thông tin - Cao đẳng Công nghệ Thủ Đức" src="images/aboutfit.jpg">
+                                        <img alt="Khoa Công nghệ thông tin - Cao đẳng Công nghệ Thủ Đức" src="packages/foostart/package-front/images/aboutfit.jpg">
                                     </a>
                                 </div>
                             </div>

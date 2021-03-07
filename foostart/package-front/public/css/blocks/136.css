@@ -7,11 +7,14 @@
 }
 .type-136 .img a {
   position: relative;
+  -webkit-mask: url(../images/tuyensinh.jpg) center center;
+  border-radius: 50%;
   display: inline-block;
 }
 .type-136 .img a img {
   max-width: 100%;
   width: 100%;
+  border-radius: 50%;
 }
 .type-136 .img a:after {
   content: '';

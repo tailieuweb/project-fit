@@ -1,23 +1,9 @@
-<?php
-$url_host = $_SERVER['HTTP_HOST'];
 
-$pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
-
-$pattern_uri = '/' . $pattern_document_root . '(.*)$/';
-
-preg_match_all($pattern_uri, __DIR__, $matches);
-
-$url_path = $url_host . $matches[1][0];
-
-$url_path = str_replace('\\', '/', $url_path);
-?>
 <div class="type-139">
-    <div class="container sidebar">
-        <div class="row">
+    <div class="sidebar">
             <!--LEFT SIDE BAR-->
             <!--/END LEFT SIDE BAR-->
             <!--RIGHT CONTENTS HOME-->
-            <div class="col-md-8">
                 <div class="topnews">
                     <div class="panel panel-default">
                         <div class="panel-heading">
@@ -37,7 +23,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                                 <div class="img text-center"> 
                                                     <a href="#">
                                                         <div class="topnewsthumb">
-                                                            <img src="http://<?php echo $url_path ?>/images/hinh1.jpg" alt="hinh1">
+                                                            <img src="packages/foostart/package-front/images/hinh1.jpg" alt="hinh1">
                                                         </div>
                                                     </a>
                                                 </div>
@@ -61,7 +47,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                                 <div class="img text-center"> 
                                                     <a href="#">
                                                         <div class="topnewsthumb">
-                                                            <img src="http://<?php echo $url_path ?>/images/hinh2.jpg" alt="hinh2">
+                                                            <img src="packages/foostart/package-front/images/hinh2.jpg" alt="hinh2">
                                                         </div>
                                                     </a>
                                                 </div>
@@ -125,8 +111,5 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div>	
                     <div class="divider"></div>
                 </div>
-            </div>
-            <!--/END RIGHT CONTENTS HOME-->
-        </div>
     </div>
 </div>

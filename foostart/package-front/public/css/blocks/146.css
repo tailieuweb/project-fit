@@ -16,6 +16,7 @@
   border-radius: 50%;
 }
 .type-146 .teacher .profview .profview_thumb_wrap a {
+  -webkit-mask: url(../images/TieuKimCuong) center center;
   display: inline-block;
 }
 .type-146 .teacher .profview .profview_thumb_wrap a:after {

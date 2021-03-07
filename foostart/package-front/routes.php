@@ -6,13 +6,13 @@ Route::group(['middleware' => ['web']], function () {
     Route::group(['middleware' => [],
         'namespace' => 'Foostart\Front\Controllers',
             ], function () {
-        
+
         $route_exceptions = [
             'login',
             'laravel-filemanager',
         ];
         $temp = implode('|', $route_exceptions);
-        
+
         /**
          * Copy block from root to source
          */
@@ -84,7 +84,7 @@ Route::group(['middleware' => ['web']], function () {
             'uses' => 'PostUserController@detailNews'
         ])->where(['name' => '[a-zA-Z0-9-_]+','id' => '[0-9]+']);
 
-        /**
+        /**c
          * Personnel
          */
         Route::get('/nhan-su', [
@@ -107,7 +107,7 @@ Route::group(['middleware' => ['web']], function () {
             'as' => 'student.detail',
             'uses' => 'PostUserController@detailStudent'
         ])->where(['name' => '[a-zA-Z0-9-_]+','id' => '[0-9]+']);
-        
+
         /**
          * Thematic
          */
@@ -119,9 +119,9 @@ Route::group(['middleware' => ['web']], function () {
             'as' => 'thematic.detail',
             'uses' => 'PostUserController@detailThematic'
         ])->where(['name' => '[a-zA-Z0-9-_]+','id' => '[0-9]+']);
-        
-        
-        
+
+
+
 
         /**
          * Search

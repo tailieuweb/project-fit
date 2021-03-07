@@ -1,11 +1,4 @@
-<?php
-$url_host = $_SERVER['HTTP_HOST'];
-$pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
-$pattern_uri = '/' . $pattern_document_root . '(.*)$/';
-preg_match_all($pattern_uri, __DIR__, $matches);
-$url_path = $url_host . $matches[1][0];
-$url_path = str_replace('\\', '/', $url_path);
-?>
+
 <div class="type-165">
     <div class="container intro">
         <div class="row">
@@ -25,10 +18,10 @@ $url_path = str_replace('\\', '/', $url_path);
                             <em><strong>1.1. Lịch Sử Hình Thành Và Phát Triển</strong></em>
                         </p>
                         <div class="images_Center" data-aos="fade-right">
-                            <img src="http://<?php echo $url_path ?>/images/tdc-1.jpg" alt=""/>
+                            <img src="packages/foostart/package-front/images/tdc-1.jpg" alt=""/>
                         </div>
                         <div class="images_Center" data-aos="fade-right">
-                            <img src="http://<?php echo $url_path ?>/images/tdc-2.jpg" alt=""/>
+                            <img src="packages/foostart/package-front/images/tdc-2.jpg" alt=""/>
                         </div>
                         <div class="images_Center" data-aos="fade-right">
                             <em>GIảng viên - Nhân viên;Khoa Công nghệ thông tin</em>
@@ -39,23 +32,23 @@ $url_path = str_replace('\\', '/', $url_path);
                             Với đội ngũ cán bộ giảng dạy và nghiên cứu nhiều kinh nghiệm, đã hoặc đang làm việc thực tế ở các công ty, chúng tôi tự hào luôn mang đến một môi trường học tập tiên tiến, sáng tạo, năng động, phù hợp với thực tiễn doanh nghiệp. Các lĩnh vực nghiên cứu và giảng dạy của khoa rất đa dạng và phong phú, tập trung ở các chuyên ngành ứng với bốn bộ môn: Tin học cơ sở, Công nghệ phần mềm, Mạng máy tính và Đồ họa.
                         </div>
                         <div class="images_Center" data-aos="fade-right">
-                            <img src="http://<?php echo $url_path ?>/images/tdc-3.jpg" alt=""/>
+                            <img src="packages/foostart/package-front/images/tdc-3.jpg" alt=""/>
                             <em>Bộ môn Tin học cơ sở - Khoa CNTT</em><br>
                         </div>
 
                         <div class="images_Center" data-aos="fade-right">
-                            <img src="http://<?php echo $url_path ?>/images/tdc-4.jpg" alt=""/>
+                            <img src="packages/foostart/package-front/images/tdc-4.jpg" alt=""/>
                             <em >Bộ môn Công nghệ phần mềm;- Khoa CNTT</em><br>
                         </div>
 
                         <div class="images_Center" data-aos="fade-right">
                             <br>
-                            <img src="http://<?php echo $url_path ?>/images/tdc-5.jpg" alt=""/>
+                            <img src="packages/foostart/package-front/images/tdc-5.jpg" alt=""/>
                             <em >Bộ môn Mạng máy tính;- Khoa CNTT</em><br>
                         </div>
                         <div class="images_Center" data-aos="fade-right">
                             <br>
-                            <img src="http://<?php echo $url_path ?>/images/tdc-6.jpg" alt=""/>
+                            <img src="packages/foostart/package-front/images/tdc-6.jpg" alt=""/>
                             <em >Bộ môn Đồ họa;- Khoa CNTT</em>
                         </div>
                         <br>
@@ -64,7 +57,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         </div>
                         <br>
                         <div class="images_Center" data-aos="fade-right" >
-                            <img src="http://<?php echo $url_path ?>/images/tdc-7.jpg" alt=""/>
+                            <img src="packages/foostart/package-front/images/tdc-7.jpg" alt=""/>
                             <em>Sinh viên;Khoa CNTT giao lưu, học tập với sinh viên ĐH;Singapore Polytechnic</em>
                         </div>
                         ​<br>
@@ -86,13 +79,13 @@ $url_path = str_replace('\\', '/', $url_path);
                             <li  data-aos="fade-right">Tổ;chức các hoạt động nghiên cứu khoa học, triển khai ứng dụng CNTT ở các mức độ từ cấp trường, cấp Thành phố…</li>
                             <li  data-aos="fade-right">Thực hiện hợp tác với doanh nghiệp với các cơ sở đào tạo trong và ngoài nước nhằm nâng cao chất lượng đào tạo, nghiên cứu khoa học của khoa.</li>
                         </ul>
-                        <img src="http://<?php echo $url_path ?>/images/tdc-8.jpg" alt=""  data-aos="fade-right"/>
+                        <img src="packages/foostart/package-front/images/tdc-8.jpg" alt=""  data-aos="fade-right"/>
                         <br>
                         <br>
                         <em  data-aos="fade-right"><strong>1.3. Cơ sở vật chất</strong></em><br>
                         Khoa CNTT sử dụng 17 phòng máy dành cho việc giảng dạy theo phương châm “lý thuyết đi đôi với thực hành”. Mỗi phòng học đều được trang bị đầy đủ các thiết bị nhằm đảm bảo điều kiện học tập tốt nhất cho sinh viên như: máy có cấu hình mạnh, internet tốc độ cao, máy chiếu, âm thanh, thiết bị thực hành mạng…<br>
                         <br>
-                        <img data-aos="fade-right" src="http://<?php echo $url_path ?>/images/tdc-9.jpg" alt=""/>
+                        <img data-aos="fade-right" src="packages/foostart/package-front/images/tdc-9.jpg" alt=""/>
                         <br>
                         <br>
                         <div data-aos="fade-right"> Trong đó, có các phòng thực hành chuyên biệt của bộ môn với các trang thiết bị thích hợp cho từng yêu cầu cụ thể của từng môn học như: </div>
@@ -104,32 +97,32 @@ $url_path = str_replace('\\', '/', $url_path);
                         </ul>
 
                         <div class="images_Center" data-aos="fade-right">
-                            <img src="http://<?php echo $url_path ?>/images/tdc-10.jpg" alt=""/>
+                            <img src="packages/foostart/package-front/images/tdc-10.jpg" alt=""/>
                             <em>Phòng thực hành;Quản trị mạng</em>
                         </div>
                         <br>
 
                         <div class="images_Center" data-aos="fade-right" >
-                            <img src="http://<?php echo $url_path ?>/images/tdc-11.jpg" alt=""/>
+                            <img src="packages/foostart/package-front/images/tdc-11.jpg" alt=""/>
                             <em>Giờ thực hành chuyên ngành Truyền thông đa phương tiện</em>
                         </div>
                         <br>
 
                         <div class="images_Center"  data-aos="fade-right" >
-                            <img src="http://<?php echo $url_path ?>/images/tdc-12.jpg" alt=""/>
+                            <img src="packages/foostart/package-front/images/tdc-12.jpg" alt=""/>
                             <em>Giờ học lý thuyết</em>
                         </div>
                         <br>
 
 
                         <div class="images_Center"  data-aos="fade-right" >
-                            <img src="http://<?php echo $url_path ?>/images/tdc-13.jpg" alt=""/>
+                            <img src="packages/foostart/package-front/images/tdc-13.jpg" alt=""/>
                             <em>Giờ tự học của sinh viên tại thư viện</em>
                         </div>
                         <br>
 
                         <div class="images_Center"  data-aos="fade-right" >
-                            <img src="http://<?php echo $url_path ?>/images/tdc-14.jpg" alt=""/>
+                            <img src="packages/foostart/package-front/images/tdc-14.jpg" alt=""/>
                             <em>Khuôn viên trường thoáng mát, yên tĩnh dành cho sinh viên</em>
                         </div>
                         <br>

@@ -6,6 +6,7 @@
   background: #fff;
 }
 .type-135 .prof_profile a {
+  -webkit-mask: url(../images/VoThanhTrung.jpg) center center;
   position: relative;
   display: inline-block;
 }
@@ -83,6 +84,7 @@
 }
 @media (min-width: 768px) {
   .type-135 .profile {
+    width: 96rem;
     padding: 0;
   }
   .type-135 .profile .prof_ava {

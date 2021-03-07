@@ -416,7 +416,20 @@ class FrontController extends Controller {
             $_source = realpath($this->dir_source_blocks . '/' . $id . '/' . $id . '-content.php');
             $_target = $dir_target_block_views . '/' . $id . '-content.blade.php';
             if ($_source) {
+                //Copy
                 copy($_source, $_target);
+                /**
+                 * Override content
+                 */
+                //Remove php tag
+                $content = file_get_contents($_target);
+                $pattern = '/<\?php[\s\S]*?\?>/';
+                $content = preg_replace($pattern, '', $content);
+
+                //Update image path
+                $pattern = '/src=".*?images/';
+                $content = preg_replace($pattern, 'src="packages/foostart/package-front/images', $content);
+                file_put_contents($_target, $content);
             }
         }
 

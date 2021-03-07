@@ -1,23 +1,11 @@
-<?php
-$url_host = $_SERVER['HTTP_HOST'];
 
-$pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
-
-$pattern_uri = '/' . $pattern_document_root . '(.*)$/';
-
-preg_match_all($pattern_uri, __DIR__, $matches);
-
-$url_path = $url_host . $matches[1][0];
-
-$url_path = str_replace('\\', '/', $url_path);
-?>
 <div class="type-161">
     <!--LIST OF HEADER-->
     <div class="container">
         <div class="heading">
             <div style="margin: 0 auto; display: table;">
                 <div style="display: table-cell;">
-                    <img src="http://<?php echo $url_path ?>/images/training_icon.png" style="float:left;">
+                    <img src="packages/foostart/package-front/images/training_icon.png" style="float:left;">
                 </div>
                 <div style="display: table-cell;">
                     <h1><span>CHƯƠNG TRÌNH</span><br>ĐÀO TẠO</h1>

@@ -1,16 +1,4 @@
-<?php
-$url_host = $_SERVER['HTTP_HOST'];
 
-$pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
-
-$pattern_uri = '/' . $pattern_document_root . '(.*)$/';
-
-preg_match_all($pattern_uri, __DIR__, $matches);
-
-$url_path = $url_host . $matches[1][0];
-
-$url_path = str_replace('\\', '/', $url_path);
-?>
 <div class="type-146">
     <div class="container teacher">
         <div class="row">
@@ -21,8 +9,8 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="col-xs-6 col-sm-3 placeholder profview">
                         <div class="profview_thumb">
                             <div class="profview_thumb_wrap">
-                                <a href="#" style="-webkit-mask: url(http://<?php echo $url_path ?>/images/VoThanhTrung.jpg) center center;">
-                                    <img src="http://<?php echo $url_path ?>/images/VoThanhTrung.jpg" alt=""/>
+                                <a href="#">
+                                    <img src="packages/foostart/package-front/images/VoThanhTrung.jpg" alt=""/>
                                 </a>
                             </div>
                         </div>
@@ -32,8 +20,8 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="col-xs-6 col-sm-3 placeholder profview">
                         <div class="profview_thumb">
                             <div class="profview_thumb_wrap">
-                                <a href="#" style="-webkit-mask: url(http://<?php echo $url_path ?>/images/TieuKimCuong.jpg) center center;">
-                                    <img src="http://<?php echo $url_path ?>/images/TieuKimCuong.jpg" alt=""/>
+                                <a href="#">
+                                    <img src="packages/foostart/package-front/images/TieuKimCuong.jpg" alt=""/>
                                 </a>
                             </div>
                         </div>
@@ -43,8 +31,8 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="col-xs-6 col-sm-3 placeholder profview">
                         <div class="profview_thumb">
                             <div class="profview_thumb_wrap">
-                                <a href="#" style="-webkit-mask: url(http://<?php echo $url_path ?>/images/NguyenHongLan.png) center center;">
-                                    <img src="http://<?php echo $url_path ?>/images/NguyenHongLan.png" alt=""/>
+                                <a href="#">
+                                    <img src="packages/foostart/package-front/images/NguyenHongLan.png" alt=""/>
                                 </a>
                             </div>
                         </div>
@@ -54,8 +42,8 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="col-xs-6 col-sm-3 placeholder profview">
                         <div class="profview_thumb">
                             <div class="profview_thumb_wrap">
-                                <a href="#" style="-webkit-mask: url(http://<?php echo $url_path ?>/images/DongThiHoan.jpg) center center;">
-                                    <img src="http://<?php echo $url_path ?>/images/DongThiHoan.jpg" alt=""/>
+                                <a href="#">
+                                    <img src="packages/foostart/package-front/images/DongThiHoan.jpg" alt=""/>
                                 </a>
                             </div>
                         </div>

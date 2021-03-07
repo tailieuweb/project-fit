@@ -1,16 +1,4 @@
-<?php
-$url_host = $_SERVER['HTTP_HOST'];
 
-$pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
-
-$pattern_uri = '/' . $pattern_document_root . '(.*)$/';
-
-preg_match_all($pattern_uri, __DIR__, $matches);
-
-$url_path = $url_host . $matches[1][0];
-
-$url_path = str_replace('\\', '/', $url_path);
-?>
 <div class="type-133">
     <!--MENU HOME-->
 
@@ -40,13 +28,13 @@ $url_path = str_replace('\\', '/', $url_path);
     </div>
     <!--END MENU HOME-->
     <header id="scoll-top">
-        <nav id="clear-navbar-fixed"class="navbar navbar-inverse navbar-static-top navbar-fixed-top">
+        <nav id="clear-navbar-fixed"class="navbar navbar-inverse navbar-static-top">
             <!--LIST OF HEADER -->
             <div class="container menu">
                 <div class="left-bg">&nbsp;</div>
                 <div class="container menu">
                     <div class="logo">
-                        <a href="#"><img alt="TDC-Khoa CNTT logo" src="http://<?php echo $url_path ?>/images/logo.png"></a>
+                        <a href="#"><img alt="TDC-Khoa CNTT logo" src="packages/foostart/package-front/images/logo.png"></a>
                         <span class="triangle-arrow">&nbsp;</span>
                     </div>
 

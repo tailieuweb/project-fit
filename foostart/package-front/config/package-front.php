@@ -25,31 +25,20 @@ return [
         142,
         143,
         144,
-
         146,
         147,
-
-
-
         151,
         152,
         153,
         154,
         155,
-
         157,
         158,
-
-
         161,
         162,
         163,
         164,
         165,
-
-
-
-
         170,
         171,
         172,
@@ -60,7 +49,6 @@ return [
         177,
         178,
         179,
-
     ],
 
 
@@ -174,7 +162,7 @@ return [
             'libs' => [
             ]
         ],//| 4-Personnel list page
-        
+
         /**
          * | 5-Personnel detail page
          */
@@ -192,7 +180,7 @@ return [
             'libs' => [
             ]
         ],//| 5-Personnel detail page
-        
+
         /**
          * | 6-Student list page
          */
@@ -215,7 +203,7 @@ return [
             'libs' => [
             ]
         ],//| 6-Student list page
-        
+
         /**
          * | 7-Student detail page
          */
@@ -235,7 +223,7 @@ return [
             'libs' => [
             ]
         ],//| 7-Student detail page
-        
+
         /**
          * | 8-Thematic list page
          */
@@ -251,7 +239,7 @@ return [
             'libs' => [
             ]
         ],//| 8-Thematic list page
-        
+
         /**
          * | 9-Thematic detail page
          */
@@ -269,7 +257,7 @@ return [
             'libs' => [
             ]
         ],//| 9-Thematic detail page
-        
+
         /**
          * | 10-Contact page
          */
@@ -285,7 +273,7 @@ return [
             'libs' => [
             ]
         ],//| 10-Contact page
-        
+
         /**
          * | 11-Other page page
          */
@@ -359,7 +347,7 @@ return [
     */
     'dir' => [
         'status' => TRUE,
-        'root_source_blocks' => 'F:\dev\1-blocks\1-sources',
-        'source_blocks' => 'D:\2-github\1-tailieuweb\3-project-fit\3-templates\1-blocks',
+        'root_source_blocks' => 'E:\dev\1-blocks\1-sources',
+        'source_blocks' => 'D:\1-github-workspace\1-tailieuweb\2-project-fit\1-templates\1-blocks',
     ],
 ];

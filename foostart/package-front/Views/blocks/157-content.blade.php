@@ -1,11 +1,4 @@
-<?php
-$url_host = $_SERVER['HTTP_HOST'];
-$pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
-$pattern_uri = '/' . $pattern_document_root . '(.*)$/';
-preg_match_all($pattern_uri, __DIR__, $matches);
-$url_path = $url_host . $matches[1][0];
-$url_path = str_replace('\\', '/', $url_path);
-?>
+
 <div class="type-157">
     <div class="container sidebar">
         <div class="row">
@@ -16,7 +9,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="row">
                         <div class="col-md-5">
                             <div class="top_news_block_thumb mask shine">
-                                <img src="http://<?php echo $url_path ?>/images/php.jpg" alt="thumb">
+                                <img src="packages/foostart/package-front/images/php.jpg" alt="thumb">
                             </div>
                         </div>
                         <div class="col-md-7 top_news_block_desc">
@@ -40,7 +33,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="row">
                         <div class="col-md-5">
                             <div class="top_news_block_thumb mask shine">
-                                <img src="http://<?php echo $url_path ?>/images/php.jpg" alt="thumb">
+                                <img src="packages/foostart/package-front/images/php.jpg" alt="thumb">
                             </div>
                         </div>
                         <div class="col-md-7 top_news_block_desc">
@@ -64,7 +57,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="row">
                         <div class="col-md-5">
                             <div class="top_news_block_thumb mask shine">
-                                <img src="http://<?php echo $url_path ?>/images/php.jpg" alt="thumb">
+                                <img src="packages/foostart/package-front/images/php.jpg" alt="thumb">
                             </div>
                         </div>
                         <div class="col-md-7 top_news_block_desc">

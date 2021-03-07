@@ -4,13 +4,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
     <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>  
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,700,800|Open+Sans+Condensed:300,700|Prata&amp;subset=vietnamese" rel="stylesheet" type="text/css">
-    <?php
-    if (!class_exists('lessc')) {
-        include ('./libs/lessc.inc.php');
-    }
-    $less = new lessc;
-    $less->compileFile('less/343.less', 'css/343.css');
-    ?>
+    
     <link href="css/343.css" rel="stylesheet" type="text/css"/>
     <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>  
     <script src="js/bootstrap.min.js" type="text/javascript"></script>
@@ -26,7 +20,7 @@
                 <!--LOGO-->
                 <div class="logo">
                     <a href="#">
-                        <img alt="TDC-Khoa CNTT logo" src="images/logo.png">
+                        <img alt="TDC-Khoa CNTT logo" src="packages/foostart/package-front/images/logo.png">
                     </a>
                     <span class="triangle-arrow">&nbsp;</span>
                 </div>

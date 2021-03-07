@@ -1136,6 +1136,7 @@ return array(
     'Foostart\\Front\\Models\\Front' => $vendorDir . '/foostart/package-front/Models/Front.php',
     'Foostart\\Front\\Validators\\FrontValidator' => $vendorDir . '/foostart/package-front/Validators/FrontValidator.php',
     'Foostart\\Pexcel\\Controllers\\Admin\\PexcelAdminController' => $vendorDir . '/foostart/package-pexcel/Controllers/Admin/PexcelAdminController.php',
+    'Foostart\\Pexcel\\Controllers\\User\\PexcelUserController' => $vendorDir . '/foostart/package-pexcel/Controllers/User/PexcelUserController.php',
     'Foostart\\Pexcel\\Helper\\PexcelParser' => $vendorDir . '/foostart/package-pexcel/Helper/PexcelParser.php',
     'Foostart\\Pexcel\\Models\\Pexcel' => $vendorDir . '/foostart/package-pexcel/Models/Pexcel.php',
     'Foostart\\Pexcel\\PexcelServiceProvider' => $vendorDir . '/foostart/package-pexcel/PexcelServiceProvider.php',

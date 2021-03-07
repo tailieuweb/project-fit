@@ -1,16 +1,4 @@
-<?php
-$url_host = $_SERVER['HTTP_HOST'];
 
-$pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
-
-$pattern_uri = '/' . $pattern_document_root . '(.*)$/';
-
-preg_match_all($pattern_uri, __DIR__, $matches);
-
-$url_path = $url_host . $matches[1][0];
-
-$url_path = str_replace('\\', '/', $url_path);
-?>
 <div class="type-143">
     <div class="container news">
         <div class="row">
@@ -19,7 +7,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="top_news_block">
                     <div class="thumb text-center">
                         <a href="#">
-                            <img src="http://<?php echo $url_path ?>/images/news-3.jpg" alt=""/>
+                            <img src="packages/foostart/package-front/images/news-3.jpg" alt=""/>
                         </a>
                     </div>
                     <div class="top_news_block_desc">
@@ -41,7 +29,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="top_news_block">
                     <div class="thumb text-center">
                         <a href="#">
-                            <img src="http://<?php echo $url_path ?>/images/news-3.jpg" alt=""/>
+                            <img src="packages/foostart/package-front/images/news-3.jpg" alt=""/>
                         </a>
                     </div>
                     <div class="top_news_block_desc">
@@ -63,7 +51,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="top_news_block">
                     <div class="thumb text-center">
                         <a href="#">
-                            <img src="http://<?php echo $url_path ?>/images/news-3.jpg" alt=""/>
+                            <img src="packages/foostart/package-front/images/news-3.jpg" alt=""/>
                         </a>
                     </div>
                     <div class="top_news_block_desc">

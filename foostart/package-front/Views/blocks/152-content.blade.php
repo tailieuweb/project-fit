@@ -1,16 +1,4 @@
-<?php
-$url_host = $_SERVER['HTTP_HOST'];
 
-$pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
-
-$pattern_uri = '/' . $pattern_document_root . '(.*)$/';
-
-preg_match_all($pattern_uri, __DIR__, $matches);
-
-$url_path = $url_host . $matches[1][0];
-
-$url_path = str_replace('\\', '/', $url_path);
-?>
 <div class="type-152">
     <div class="container slidebar">
         <div class="row">
@@ -28,7 +16,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="row">
                             <div class="col-md-6 col-sm-6 col-xs-6 mask ">
                                 <a>
-                                    <img class="img-responsive" src="http://<?php echo $url_path ?>/images/mmt_thumb.jpg" alt="mmt">
+                                    <img class="img-responsive" src="packages/foostart/package-front/images/mmt_thumb.jpg" alt="mmt">
                                 </a>   
                             </div>
 
@@ -41,7 +29,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="row">
                             <div class="col-md-6 col-sm-6 col-xs-6 mask ">
                                 <a>
-                                    <img class="img-responsive" src="http://<?php echo $url_path ?>/images/cnpm_thumb.jpg" alt="cnpm">
+                                    <img class="img-responsive" src="packages/foostart/package-front/images/cnpm_thumb.jpg" alt="cnpm">
                                 </a>
                             </div>
                             <div class="col-md-6 col-sm-6 col-xs-6 dep_name">
@@ -53,7 +41,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="row">
                             <div class="col-md-6 col-sm-6 col-xs-6 mask ">
                                 <a>
-                                    <img class="img-responsive" src="http://<?php echo $url_path ?>/images/dh_thumb.jpg" alt="dh">
+                                    <img class="img-responsive" src="packages/foostart/package-front/images/dh_thumb.jpg" alt="dh">
                                 </a>
                             </div>
                             <div class="col-md-6 col-sm-6 col-xs-6 dep_name">
@@ -65,7 +53,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="row">
                             <div class="col-md-6 col-sm-6 col-xs-6 mask ">
                                 <a>
-                                    <img class="img-responsive" src="http://<?php echo $url_path ?>/images/thcs_thumb.jpg" alt="thcs">
+                                    <img class="img-responsive" src="packages/foostart/package-front/images/thcs_thumb.jpg" alt="thcs">
                                 </a>
                             </div>
                             <div class="col-md-6 col-sm-6 col-xs-6 dep_name">

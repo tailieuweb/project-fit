@@ -1,16 +1,4 @@
-<?php
-$url_host = $_SERVER['HTTP_HOST'];
-
-$pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
-
-$pattern_uri = '/' . $pattern_document_root . '(.*)$/';
-
-preg_match_all($pattern_uri, __DIR__, $matches);
-
-$url_path = $url_host . $matches[1][0];
-
-$url_path = str_replace('\\', '/', $url_path);
-?>    
+    
 <div class="type-164">
     <div class="container address">
         <div class="row">
@@ -38,7 +26,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <textarea rows="10" cols="100" class="form-control" id="message" name="message" placeholder="Lời nhắn" style="resize:none;"></textarea>
                                 <span class="help-block">Please enter a message.</span>
                             </div>
-                            <img src="http://<?php echo $url_path ?>/images/captcha.PNG" alt=""/>
+                            <img src="packages/foostart/package-front/images/captcha.PNG" alt=""/>
                             <div class="form-group">
                                 <input type="text" class="form-control" name="captcha_code" id="captcha_code" placeholder="Vì lý do bảo mật, xin vui lòng điền mã hiển thị bên trên">
                                 <span class="help-block">Please enter the code displayed within the image.</span>
