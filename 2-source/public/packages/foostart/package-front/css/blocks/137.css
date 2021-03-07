@@ -159,9 +159,6 @@
   margin-left: -0.15rem;
 }
 @media (min-width: 768px) {
-  .type-137 .event {
-    width: 96rem;
-  }
   .type-137 .timeline-badge {
     left: 50%;
   }
