@@ -77,11 +77,11 @@ Route::group(['middleware' => ['web']], function () {
          */
         Route::get('/tin-tuc', [
             'as' => 'news.list',
-            'uses' => 'PostUserController@listNews'
+            'uses' => 'NewsController@listNews'
         ]);
         Route::get('/tin-tuc/{name}-{id}', [
             'as' => 'news.detail',
-            'uses' => 'PostUserController@detailNews'
+            'uses' => 'NewsController@detailNews'
         ])->where(['name' => '[a-zA-Z0-9-_]+','id' => '[0-9]+']);
 
         /**c

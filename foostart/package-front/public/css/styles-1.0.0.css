@@ -10,7 +10,7 @@ and open the template in the editor.
     Location   : B102B
 */
 body {
-    background: url(packages/foostart/package-front/images/bg_pattern.png) repeat;
+    background: url(/../images/bg_pattern.png) repeat;
     font-family: 'Open Sans', sans-serif;
 }
 .alert-message

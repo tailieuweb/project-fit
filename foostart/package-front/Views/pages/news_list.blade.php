@@ -15,20 +15,18 @@
 <!--CONTENT-->
 @section('content')
     @include('package-front::blocks.133-content')
-    
     @include('package-front::blocks.143-content')
-    
+
     <div class="container">
-        
-        <div class="col-md-8">
-            @include('package-front::blocks.144-content')
+        <div class="row">
+            <div class="col-md-8">
+                @include('package-front::blocks.144-content')
+            </div>
+            <div class="col-md-4">
+                @include('package-front::blocks.137-content')
+            </div>
         </div>
-        <div class="col-md-4">
-            @include('package-front::blocks.137-content')
-        </div>
-        
-        
     </div>
-    
+
     @include('package-front::blocks.177-content')
 @stop

@@ -77,9 +77,6 @@
   text-align: center;
 }
 @media (min-width: 768px) {
-  .type-144 .news {
-    width: 96rem;
-  }
   .type-144 .topnewstime {
     text-align: right !important;
     padding-right: 2rem;

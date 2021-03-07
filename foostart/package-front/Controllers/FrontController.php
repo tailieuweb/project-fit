@@ -466,6 +466,8 @@ class FrontController extends Controller {
     public function configBlockPageIds() {
         $this->block_page_ids = [
             'home' => $this->getPageConfig('home'),
+            'news_list' => $this->getPageConfig('news_list'),
+            'news_detail' => $this->getPageConfig('news_detail'),
         ];
         return $this->block_page_ids;
     }
