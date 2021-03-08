@@ -173,6 +173,9 @@ return [
         Intervention\Image\ImageServiceProvider::class,
         Foostart\Front\FrontServiceProvider::class,
         Foostart\Contact\ContactServiceProvider::class,
+        Foostart\Sample\SampleServiceProvider::class,
+        Foostart\Module\ModuleServiceProvider::class,
+        Foostart\Crawler\CrawlerServiceProvider::class,
 
         /*
          * Application Service Providers...
