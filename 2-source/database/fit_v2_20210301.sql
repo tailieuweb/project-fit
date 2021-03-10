@@ -127,7 +127,7 @@ INSERT INTO `contexts` (`context_id`, `context_name`, `context_key`, `context_re
 DROP TABLE IF EXISTS `crawler_patterns`;
 CREATE TABLE IF NOT EXISTS `crawler_patterns` (
   `pattern_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Primary key',
-  `site_id` int(11) NOT NULL COMMENT 'Site ID',
+  `site_id` int(11) NOT NULL COMMENT 'Sites ID',
   `pattern_name` varchar(55) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT 'Name',
   `pattern_machine_name` varchar(55) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT 'Machine name',
   `pattern_description` text COLLATE utf8mb4_unicode_ci NOT NULL COMMENT 'Description',
@@ -187,9 +187,9 @@ INSERT INTO `crawler_regular_expressions` (`regular_expression_id`, `pattern_id`
 DROP TABLE IF EXISTS `crawler_sites`;
 CREATE TABLE IF NOT EXISTS `crawler_sites` (
   `site_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Primary key',
-  `site_name` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT 'Site name',
-  `site_url` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT 'Site url',
-  `site_image` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT 'Site image',
+  `site_name` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT 'Sites name',
+  `site_url` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT 'Sites url',
+  `site_image` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT 'Sites image',
   `site_description` text COLLATE utf8mb4_unicode_ci NOT NULL COMMENT 'Description',
   `status` tinyint(4) DEFAULT '1' COMMENT '1: show, 0: hide',
   `sequence` int(11) DEFAULT NULL COMMENT 'Input order',
