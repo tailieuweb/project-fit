@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Mar 10, 2021 at 10:02 AM
+-- Generation Time: Mar 12, 2021 at 02:54 AM
 -- Server version: 5.7.31
 -- PHP Version: 7.4.9
 
@@ -50,15 +50,7 @@ CREATE TABLE IF NOT EXISTS `categories` (
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`category_id`)
-) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-
---
--- Dumping data for table `categories`
---
-
-INSERT INTO `categories` (`category_id`, `context_id`, `category_id_parent`, `category_id_parent_str`, `category_id_child_str`, `category_name`, `category_order`, `category_slug`, `category_url`, `category_icon`, `category_overview`, `category_description`, `category_image`, `status`, `sequence`, `created_user_id`, `updated_user_id`, `deleted_at`, `created_at`, `updated_at`) VALUES
-(1, 3, NULL, NULL, NULL, 'Java Advanced - RESTful', 1, 'java-advanced-restful', 'asfasfasf', 'sfasfasf', 'pluckSelectpluckSelectpluckSelectpluckSelectpluckSelectpluckSelectpluckSelectpluckSelectpluckSelectpluckSelectpluckSelectpluckSelect', '<p>pluckSelectpluckSelectpluckSelectpluckSelect</p>\r\n<p>pluckSelectpluckSelectpluckSelectpluckSelect</p>\r\n<p>pluckSelectpluckSelectpluckSelectpluckSelect</p>\r\n<p>pluckSelectpluckSelectpluckSelectpluckSelect</p>\r\n<p>pluckSelectpluckSelectpluckSelectpluckSelect</p>', NULL, 99, NULL, 1, 1, NULL, '2021-03-08 02:26:53', '2021-03-08 02:26:53'),
-(2, 3, NULL, NULL, NULL, 'Java Advanced - RESTful', 1, 'java-advanced-restful', 'asfasfasf', 'sfasfasf', 'pluckSelectpluckSelectpluckSelectpluckSelectpluckSelectpluckSelectpluckSelectpluckSelectpluckSelectpluckSelectpluckSelectpluckSelect', '<p>pluckSelectpluckSelectpluckSelectpluckSelect</p>\r\n<p>pluckSelectpluckSelectpluckSelectpluckSelect</p>\r\n<p>pluckSelectpluckSelectpluckSelectpluckSelect</p>\r\n<p>pluckSelectpluckSelectpluckSelectpluckSelect</p>\r\n<p>pluckSelectpluckSelectpluckSelectpluckSelect</p>', NULL, 99, NULL, 1, 1, NULL, '2021-03-08 02:26:59', '2021-03-08 02:26:59');
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- --------------------------------------------------------
 
@@ -106,17 +98,15 @@ CREATE TABLE IF NOT EXISTS `contexts` (
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`context_id`)
-) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Dumping data for table `contexts`
 --
 
 INSERT INTO `contexts` (`context_id`, `context_name`, `context_key`, `context_ref`, `context_slug`, `context_notes`, `status`, `sequence`, `created_user_id`, `updated_user_id`, `deleted_at`, `created_at`, `updated_at`) VALUES
-(1, 'User level', 'ab7e417e2dddc5e5240b586d454e', 'user/level', NULL, NULL, 99, NULL, 1, 1, NULL, '2021-03-07 20:12:47', '2021-03-07 20:12:47'),
-(2, 'User department', 'ab7e417e2dddc5e5240b586d454f', 'user/department', NULL, NULL, 99, NULL, 1, 1, NULL, '2021-03-07 20:12:47', '2021-03-07 20:12:47'),
-(3, 'Admin posts', 'ab7e417e2dddc5240b586d454e', 'admin/posts', NULL, NULL, 99, NULL, 1, 1, NULL, '2021-03-08 02:26:27', '2021-03-08 02:26:27'),
-(4, 'Admin slideshows', 'ab7e417e2dddc5e5240b586d454f', 'admin/slideshows', NULL, NULL, 99, NULL, 1, 1, NULL, '2021-03-08 02:26:27', '2021-03-08 02:26:27');
+(1, 'User level', 'ab7e417e2dddc5e5240b586d454e', 'user/level', NULL, NULL, 99, NULL, 1, 1, NULL, '2021-03-11 18:22:54', '2021-03-11 18:22:54'),
+(2, 'User department', 'ab7e417e2dddc5e5240b586d454f', 'user/department', NULL, NULL, 99, NULL, 1, 1, NULL, '2021-03-11 18:22:54', '2021-03-11 18:22:54');
 
 -- --------------------------------------------------------
 
@@ -127,7 +117,7 @@ INSERT INTO `contexts` (`context_id`, `context_name`, `context_key`, `context_re
 DROP TABLE IF EXISTS `crawler_patterns`;
 CREATE TABLE IF NOT EXISTS `crawler_patterns` (
   `pattern_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Primary key',
-  `site_id` int(11) NOT NULL COMMENT 'Sites ID',
+  `site_id` int(11) NOT NULL COMMENT 'Site ID',
   `pattern_name` varchar(55) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT 'Name',
   `pattern_machine_name` varchar(55) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT 'Machine name',
   `pattern_description` text COLLATE utf8mb4_unicode_ci NOT NULL COMMENT 'Description',
@@ -139,14 +129,18 @@ CREATE TABLE IF NOT EXISTS `crawler_patterns` (
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`pattern_id`)
-) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Dumping data for table `crawler_patterns`
 --
 
 INSERT INTO `crawler_patterns` (`pattern_id`, `site_id`, `pattern_name`, `pattern_machine_name`, `pattern_description`, `status`, `sequence`, `created_user_id`, `updated_user_id`, `deleted_at`, `created_at`, `updated_at`) VALUES
-(1, 1, 'Tag name', 'tag-name', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>', 99, NULL, 1, 1, NULL, '2021-03-08 19:32:06', '2021-03-08 19:32:06');
+(1, 1, 'Tag name', 'tag-name', '<p>tag-name</p>', 99, NULL, 1, 1, NULL, '2021-03-11 19:31:25', '2021-03-11 19:31:25'),
+(2, 1, 'Tag url', 'tag-url', '<p>Tag url</p>', 99, NULL, 1, 1, NULL, '2021-03-11 19:32:00', '2021-03-11 19:32:00'),
+(3, 1, 'Tag overview', 'tag-overview', '<p>tag-overview</p>', 99, NULL, 1, 1, NULL, '2021-03-11 19:34:00', '2021-03-11 19:34:00'),
+(4, 1, 'Tag number questions', 'tag-number-questions', '<pre>tag-number-questions</pre>', 99, NULL, 1, 1, NULL, '2021-03-11 19:34:52', '2021-03-11 19:34:52'),
+(5, 1, 'Tag other', 'tag-other', '<pre>tag-other</pre>', 99, NULL, 1, 1, NULL, '2021-03-11 19:35:32', '2021-03-11 19:35:46');
 
 -- --------------------------------------------------------
 
@@ -167,16 +161,18 @@ CREATE TABLE IF NOT EXISTS `crawler_regular_expressions` (
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`regular_expression_id`)
-) ENGINE=MyISAM AUTO_INCREMENT=28 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=8 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Dumping data for table `crawler_regular_expressions`
 --
 
 INSERT INTO `crawler_regular_expressions` (`regular_expression_id`, `pattern_id`, `regular_expression_value`, `status`, `sequence`, `created_user_id`, `updated_user_id`, `deleted_at`, `created_at`, `updated_at`) VALUES
-(27, 1, '3333', 99, NULL, 1, 1, NULL, '2021-03-10 02:04:24', '2021-03-10 02:04:24'),
-(26, 1, '222', 99, NULL, 1, 1, NULL, '2021-03-10 02:04:24', '2021-03-10 02:04:24'),
-(25, 1, '1222', 99, NULL, 1, 1, NULL, '2021-03-10 02:04:24', '2021-03-10 02:04:24');
+(1, 1, '/grid--cell[\\S\\s]*?<a.*?post-tag.*?>(.*?)<\\/a>/', 99, NULL, 1, 1, NULL, '2021-03-11 19:31:25', '2021-03-11 19:31:25'),
+(2, 2, '/grid--cell[\\S\\s]*?<a href=\"(.*?)\".*?post-tag/', 99, NULL, 1, 1, NULL, '2021-03-11 19:32:00', '2021-03-11 19:32:00'),
+(3, 3, '/s-card[\\S\\s]*?<div.*?v-truncate4.*?>([\\S\\s]*?)<\\/div>/', 99, NULL, 1, 1, NULL, '2021-03-11 19:34:00', '2021-03-11 19:34:00'),
+(7, 4, '/<div.*?fc-black-400.*?>[\\S\\s]*?<div.*?grid--cell.*?>([\\S\\s]*?)questions<\\/div>/', 99, NULL, 1, 1, NULL, '2021-03-11 19:48:06', '2021-03-11 19:48:06'),
+(6, 5, '/title.*?last 7 days.*?>(.*?)this week<\\/a>/', NULL, NULL, 1, 1, NULL, '2021-03-11 19:35:46', '2021-03-11 19:35:46');
 
 -- --------------------------------------------------------
 
@@ -187,9 +183,9 @@ INSERT INTO `crawler_regular_expressions` (`regular_expression_id`, `pattern_id`
 DROP TABLE IF EXISTS `crawler_sites`;
 CREATE TABLE IF NOT EXISTS `crawler_sites` (
   `site_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Primary key',
-  `site_name` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT 'Sites name',
-  `site_url` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT 'Sites url',
-  `site_image` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT 'Sites image',
+  `site_name` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT 'Site name',
+  `site_url` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT 'Site url',
+  `site_image` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT 'Site image',
   `site_description` text COLLATE utf8mb4_unicode_ci NOT NULL COMMENT 'Description',
   `status` tinyint(4) DEFAULT '1' COMMENT '1: show, 0: hide',
   `sequence` int(11) DEFAULT NULL COMMENT 'Input order',
@@ -206,7 +202,7 @@ CREATE TABLE IF NOT EXISTS `crawler_sites` (
 --
 
 INSERT INTO `crawler_sites` (`site_id`, `site_name`, `site_url`, `site_image`, `site_description`, `status`, `sequence`, `created_user_id`, `updated_user_id`, `deleted_at`, `created_at`, `updated_at`) VALUES
-(1, 'Stack Overflow', 'https://stackoverflow.com/', '/photos/1/logo.svg', '<p>Lorem ipsum dolor sit am</p>', 99, NULL, 1, 1, NULL, '2021-03-08 19:29:28', '2021-03-08 19:29:28');
+(1, 'Stack Overflow', 'https://stackoverflow.com/', '/photos/1/logo.svg', '<p>Stack Overflow</p>', 99, NULL, 1, 1, NULL, '2021-03-11 18:24:00', '2021-03-11 18:24:00');
 
 -- --------------------------------------------------------
 
@@ -231,9 +227,9 @@ CREATE TABLE IF NOT EXISTS `groups` (
 --
 
 INSERT INTO `groups` (`id`, `name`, `permissions`, `protected`, `created_at`, `updated_at`) VALUES
-(1, 'superadmin', '{\"_superadmin\":1}', 0, '2021-03-07 20:12:47', '2021-03-07 20:12:47'),
-(2, 'editor', '{\"_user-editor\":1,\"_group-editor\":1}', 0, '2021-03-07 20:12:47', '2021-03-07 20:12:47'),
-(3, 'base admin', '{\"_user-editor\":1}', 0, '2021-03-07 20:12:47', '2021-03-07 20:12:47');
+(1, 'superadmin', '{\"_superadmin\":1}', 0, '2021-03-11 18:22:54', '2021-03-11 18:22:54'),
+(2, 'editor', '{\"_user-editor\":1,\"_group-editor\":1}', 0, '2021-03-11 18:22:54', '2021-03-11 18:22:54'),
+(3, 'base admin', '{\"_user-editor\":1}', 0, '2021-03-11 18:22:54', '2021-03-11 18:22:54');
 
 -- --------------------------------------------------------
 
@@ -247,33 +243,38 @@ CREATE TABLE IF NOT EXISTS `migrations` (
   `migration` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `batch` int(11) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=60 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=85 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Dumping data for table `migrations`
 --
 
 INSERT INTO `migrations` (`id`, `migration`, `batch`) VALUES
-(33, '2021_02_23_084351_create_categories_table', 1),
-(34, '2021_02_23_084351_create_contacts_table', 1),
-(35, '2021_02_23_084351_create_posts_table', 1),
-(36, '2021_02_23_084351_create_slideshow_styles_table', 1),
-(37, '2021_02_23_084351_create_slideshows_table', 1),
-(38, '2021_02_23_084421_create_contexts_table', 1),
-(39, '2021_02_24_095545_create_users_table', 1),
-(40, '2021_02_24_095623_create_user_groups_table', 1),
-(41, '2021_02_24_095637_create_groups_table', 1),
-(42, '2021_02_24_100000_create_password_resets_table', 1),
-(43, '2021_02_24_122145_create_profile_field_types', 1),
-(44, '2021_02_24_122155_create_profile_field', 1),
-(45, '2021_02_24_160516_create_permission_table', 1),
-(46, '2021_02_24_165011_create_user_profile_table', 1),
-(47, '2021_02_24_225988_migration_cartalyst_sentry_install_throttle', 1),
-(48, '2021_02_23_084351_create_samples_table', 2),
-(49, '2021_02_23_084351_create_modules_table', 3),
-(59, '2021_02_23_084351_create_crawler_sites_table', 4),
-(57, '2021_02_23_084351_create_crawler_patterns_table', 4),
-(58, '2021_02_23_084351_create_crawler_regular_expressions_table', 4);
+(60, '2021_02_23_084351_create_categories_table', 1),
+(61, '2021_02_23_084351_create_contacts_table', 1),
+(62, '2021_02_23_084351_create_crawler_patterns_table', 1),
+(63, '2021_02_23_084351_create_crawler_regular_expressions_table', 1),
+(64, '2021_02_23_084351_create_crawler_sites_table', 1),
+(65, '2021_02_23_084351_create_modules_table', 1),
+(66, '2021_02_23_084351_create_posts_table', 1),
+(67, '2021_02_23_084351_create_samples_table', 1),
+(68, '2021_02_23_084351_create_site_stackoverflow_answers_table', 1),
+(69, '2021_02_23_084351_create_site_stackoverflow_comments_table', 1),
+(70, '2021_02_23_084351_create_site_stackoverflow_questions_table', 1),
+(71, '2021_02_23_084351_create_site_stackoverflow_tags_questions_table', 1),
+(72, '2021_02_23_084351_create_site_stackoverflow_tags_table', 1),
+(73, '2021_02_23_084351_create_slideshow_styles_table', 1),
+(74, '2021_02_23_084351_create_slideshows_table', 1),
+(75, '2021_02_23_084421_create_contexts_table', 1),
+(76, '2021_02_24_095545_create_users_table', 1),
+(77, '2021_02_24_095623_create_user_groups_table', 1),
+(78, '2021_02_24_095637_create_groups_table', 1),
+(79, '2021_02_24_100000_create_password_resets_table', 1),
+(80, '2021_02_24_122145_create_profile_field_types', 1),
+(81, '2021_02_24_122155_create_profile_field', 1),
+(82, '2021_02_24_160516_create_permission_table', 1),
+(83, '2021_02_24_165011_create_user_profile_table', 1),
+(84, '2021_02_24_225988_migration_cartalyst_sentry_install_throttle', 1);
 
 -- --------------------------------------------------------
 
@@ -297,14 +298,7 @@ CREATE TABLE IF NOT EXISTS `modules` (
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`module_id`)
-) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-
---
--- Dumping data for table `modules`
---
-
-INSERT INTO `modules` (`module_id`, `module_name`, `module_email`, `module_phone`, `module_title`, `module_description`, `status`, `sequence`, `created_user_id`, `updated_user_id`, `deleted_at`, `created_at`, `updated_at`) VALUES
-(1, 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.', 'asfas', 'asdf asdfa sdfasd fasf', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>', 33, NULL, 1, 1, NULL, '2021-03-07 20:48:48', '2021-03-07 20:48:48');
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- --------------------------------------------------------
 
@@ -345,11 +339,11 @@ CREATE TABLE IF NOT EXISTS `permission` (
 --
 
 INSERT INTO `permission` (`id`, `overview`, `description`, `url`, `permission`, `protected`, `created_at`, `updated_at`) VALUES
-(1, '', 'superadmin', '', '_superadmin', 0, '2021-03-07 20:12:47', '2021-03-07 20:12:47'),
-(2, '', 'user editor', '', '_user-editor', 0, '2021-03-07 20:12:47', '2021-03-07 20:12:47'),
-(3, '', 'group editor', '', '_group-editor', 0, '2021-03-07 20:12:47', '2021-03-07 20:12:47'),
-(4, '', 'permission editor', '', '_permission-editor', 0, '2021-03-07 20:12:47', '2021-03-07 20:12:47'),
-(5, '', 'profile type editor', '', '_profile-editor', 0, '2021-03-07 20:12:47', '2021-03-07 20:12:47');
+(1, '', 'superadmin', '', '_superadmin', 0, '2021-03-11 18:22:54', '2021-03-11 18:22:54'),
+(2, '', 'user editor', '', '_user-editor', 0, '2021-03-11 18:22:54', '2021-03-11 18:22:54'),
+(3, '', 'group editor', '', '_group-editor', 0, '2021-03-11 18:22:54', '2021-03-11 18:22:54'),
+(4, '', 'permission editor', '', '_permission-editor', 0, '2021-03-11 18:22:54', '2021-03-11 18:22:54'),
+(5, '', 'profile type editor', '', '_profile-editor', 0, '2021-03-11 18:22:54', '2021-03-11 18:22:54');
 
 -- --------------------------------------------------------
 
@@ -439,14 +433,162 @@ CREATE TABLE IF NOT EXISTS `samples` (
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`sample_id`)
-) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+-- --------------------------------------------------------
 
 --
--- Dumping data for table `samples`
+-- Table structure for table `site_stackoverflow_answers`
 --
 
-INSERT INTO `samples` (`sample_id`, `sample_name`, `sample_email`, `sample_phone`, `sample_title`, `sample_description`, `status`, `sequence`, `created_user_id`, `updated_user_id`, `deleted_at`, `created_at`, `updated_at`) VALUES
-(1, 'asdfasdfLorem ipsum dolor sit amet, consectetur adipisicing elit.', 'asdfasdfasdf', 'asdfasdf', 'asdfasdfasdf asd Lorem ipsum dolor sit amet, consectetur adipisicing elit.', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>', 99, NULL, 1, 1, NULL, '2021-03-07 20:48:25', '2021-03-07 20:48:25');
+DROP TABLE IF EXISTS `site_stackoverflow_answers`;
+CREATE TABLE IF NOT EXISTS `site_stackoverflow_answers` (
+  `answer_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Primary key',
+  `question_id` int(11) NOT NULL COMMENT 'Question ID',
+  `answer_description` text COLLATE utf8mb4_unicode_ci NOT NULL COMMENT 'Description',
+  `answer_url_user` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT 'URL user',
+  `status` tinyint(4) DEFAULT '1' COMMENT '1: show, 0: hide',
+  `sequence` int(11) DEFAULT NULL COMMENT 'Input order',
+  `created_user_id` int(11) NOT NULL COMMENT 'Created by User Id',
+  `updated_user_id` int(11) NOT NULL COMMENT 'Updated by User Id',
+  `deleted_at` timestamp NULL DEFAULT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL,
+  PRIMARY KEY (`answer_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `site_stackoverflow_comments`
+--
+
+DROP TABLE IF EXISTS `site_stackoverflow_comments`;
+CREATE TABLE IF NOT EXISTS `site_stackoverflow_comments` (
+  `comment_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Primary key',
+  `context_id` int(11) NOT NULL COMMENT 'Context ID',
+  `comment_type` varchar(25) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT 'Context Name',
+  `comment_url_user` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT 'URL user',
+  `comment_content` text COLLATE utf8mb4_unicode_ci NOT NULL COMMENT 'content',
+  `status` tinyint(4) DEFAULT '1' COMMENT '1: show, 0: hide',
+  `sequence` int(11) DEFAULT NULL COMMENT 'Input order',
+  `created_user_id` int(11) NOT NULL COMMENT 'Created by User Id',
+  `updated_user_id` int(11) NOT NULL COMMENT 'Updated by User Id',
+  `deleted_at` timestamp NULL DEFAULT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL,
+  PRIMARY KEY (`comment_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `site_stackoverflow_questions`
+--
+
+DROP TABLE IF EXISTS `site_stackoverflow_questions`;
+CREATE TABLE IF NOT EXISTS `site_stackoverflow_questions` (
+  `question_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Primary key',
+  `question_name` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT 'Name',
+  `question_url` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT 'URL',
+  `question_description` text COLLATE utf8mb4_unicode_ci NOT NULL COMMENT 'Description',
+  `question_url_user` varchar(55) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT 'URL user',
+  `status` tinyint(4) DEFAULT '1' COMMENT '1: show, 0: hide',
+  `sequence` int(11) DEFAULT NULL COMMENT 'Input order',
+  `created_user_id` int(11) NOT NULL COMMENT 'Created by User Id',
+  `updated_user_id` int(11) NOT NULL COMMENT 'Updated by User Id',
+  `deleted_at` timestamp NULL DEFAULT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL,
+  PRIMARY KEY (`question_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `site_stackoverflow_tags`
+--
+
+DROP TABLE IF EXISTS `site_stackoverflow_tags`;
+CREATE TABLE IF NOT EXISTS `site_stackoverflow_tags` (
+  `tag_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Primary key',
+  `tag_name` varchar(55) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT 'Name',
+  `tag_url` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT 'Url',
+  `tag_overview` text COLLATE utf8mb4_unicode_ci NOT NULL COMMENT 'Overview',
+  `tag_num_questions` int(11) DEFAULT NULL COMMENT 'Number questions',
+  `tag_other` varchar(1000) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT 'Other info',
+  `status` tinyint(4) DEFAULT '1' COMMENT '1: show, 0: hide',
+  `sequence` int(11) DEFAULT NULL COMMENT 'Input order',
+  `created_user_id` int(11) NOT NULL COMMENT 'Created by User Id',
+  `updated_user_id` int(11) NOT NULL COMMENT 'Updated by User Id',
+  `deleted_at` timestamp NULL DEFAULT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL,
+  PRIMARY KEY (`tag_id`)
+) ENGINE=MyISAM AUTO_INCREMENT=37 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data for table `site_stackoverflow_tags`
+--
+
+INSERT INTO `site_stackoverflow_tags` (`tag_id`, `tag_name`, `tag_url`, `tag_overview`, `tag_num_questions`, `tag_other`, `status`, `sequence`, `created_user_id`, `updated_user_id`, `deleted_at`, `created_at`, `updated_at`) VALUES
+(1, 'javascript', '/questions/tagged/javascript', '<p>For questions regarding programming in ECMAScript (JavaScript/JS) and its various dialects/implementations (excluding ActionScript). Please include all relevant tags on your question; e.g., [node.js],&hellip;</p>', 2183951, '5383', 99, NULL, 1, 1, NULL, '2021-03-11 19:52:17', '2021-03-11 19:52:39'),
+(2, 'java', '/questions/tagged/java', 'a high-level programming language. Use this tag when you&#39;re having problems using or understanding the language itself. This tag is rarely used alone and is most often used in conjunction with&hellip;', 1759966, '3017', NULL, NULL, 1, 1, NULL, '2021-03-11 19:52:17', '2021-03-11 19:52:17'),
+(3, 'python', '/questions/tagged/python', 'a multi-paradigm, dynamically typed, multipurpose programming language. It is designed to be quick to learn, understand, and use, and enforce a clean and uniform syntax. Please note that Pyt&hellip;', 1671933, '7517', NULL, NULL, 1, 1, NULL, '2021-03-11 19:52:17', '2021-03-11 19:52:17'),
+(4, 'c#', '/questions/tagged/c%23', 'a high level, statically typed, multi-paradigm programming language developed by Microsoft. C# code usually targets Microsoft&#39;s .NET family of tools and run-times, which&hellip;', 1468444, '2107', NULL, NULL, 1, 1, NULL, '2021-03-11 19:52:17', '2021-03-11 19:52:17'),
+(5, 'php', '/questions/tagged/php', 'a widely used, high-level, dynamic, object-oriented, and interpreted scripting language primarily designed for server-side web development. Used for questions about the PHP language.', 1395382, '1920', NULL, NULL, 1, 1, NULL, '2021-03-11 19:52:17', '2021-03-11 19:52:17'),
+(6, 'android', '/questions/tagged/android', 'Google&#39;s mobile operating system, used for programming or developing digital devices (Smartphones, Tablets, Automobiles, TVs, Wear, Glass, IoT). For topics related to Android, use Android-s&hellip;', 1327063, '1833', NULL, NULL, 1, 1, NULL, '2021-03-11 19:52:17', '2021-03-11 19:52:17'),
+(7, 'html', '/questions/tagged/html', 'the markup language for creating web pages and other information to be displayed in a web browser. Questions regarding HTML should include a minimal reproducible ex&hellip;', 1058240, '2124', NULL, NULL, 1, 1, NULL, '2021-03-11 19:52:17', '2021-03-11 19:52:17'),
+(8, 'jquery', '/questions/tagged/jquery', 'a JavaScript library, consider also adding the JavaScript tag. \r\n\r\njQuery is a popular cross-browser JavaScript library that facilitates Document Object Model (DOM) traversal, event handling&hellip;', 1008706, '671', NULL, NULL, 1, 1, NULL, '2021-03-11 19:52:17', '2021-03-11 19:52:17'),
+(9, 'c++', '/questions/tagged/c%2b%2b', 'a general-purpose programming language. It was originally designed as an extension to C and has a similar syntax, but it is now a completely different language. Use this tag for questions about&hellip;', 716414, '1468', NULL, NULL, 1, 1, NULL, '2021-03-11 19:52:17', '2021-03-11 19:52:17'),
+(10, 'css', '/questions/tagged/css', 'a representation style sheet language used for describing the look and formatting of HTML (HyperText Markup Language), XML (Extensible Markup Language) documents and SV&hellip;', 708921, '1457', NULL, NULL, 1, 1, NULL, '2021-03-11 19:52:17', '2021-03-11 19:52:17'),
+(11, 'ios', '/questions/tagged/ios', 'the mobile operating system running on the Apple iPhone, iPod touch, and iPad. Use this tag [ios] for questions related to programming on the iOS platform. Use the related tags [objective-c] an&hellip;', 652152, '689', NULL, NULL, 1, 1, NULL, '2021-03-11 19:52:17', '2021-03-11 19:52:17'),
+(12, 'mysql', '/questions/tagged/mysql', 'a free, open source Relational Database Management System (RDBMS) that uses Structured Query Language (SQL).  DO NOT USE this tag for other DBs such as SQL Server, SQLite etc.  Those are diff&hellip;', 620136, '900', NULL, NULL, 1, 1, NULL, '2021-03-11 19:52:17', '2021-03-11 19:52:17'),
+(13, 'sql', '/questions/tagged/sql', 'a language for querying databases. Questions should include code examples, table structure, sample data, and a tag for the DBMS implementation (e.g. MySQL, PostgreSQ&hellip;', 582328, '1156', NULL, NULL, 1, 1, NULL, '2021-03-11 19:52:17', '2021-03-11 19:52:17'),
+(14, 'r', '/questions/tagged/r', 'a free, open-source programming language and software environment for statistical computing, bioinformatics, visualization, and general computing. Please provide minimal and reproducible example(&hellip;', 392239, '1485', NULL, NULL, 1, 1, NULL, '2021-03-11 19:52:17', '2021-03-11 19:52:17'),
+(15, 'node.js', '/questions/tagged/node.js', 'an event-based, non-blocking, asynchronous I/O runtime that uses Google&#39;s V8 JavaScript engine and libuv library. It is used for developing applications that make heavy use of the ability t&hellip;', 377181, '1578', NULL, NULL, 1, 1, NULL, '2021-03-11 19:52:17', '2021-03-11 19:52:17'),
+(16, 'asp.net', '/questions/tagged/asp.net', 'a Microsoft web application development framework that allows programmers to build dynamic web sites, web applications and web services. It is useful to use this tag in conjunction with the&hellip;', 362102, '287', NULL, NULL, 1, 1, NULL, '2021-03-11 19:52:17', '2021-03-11 19:52:17'),
+(17, 'arrays', '/questions/tagged/arrays', 'an ordered linear data structure consisting of a collection of elements (values, variables, or references), each identified by one or more indexes. When asking about specific variants of a&hellip;', 358136, '838', NULL, NULL, 1, 1, NULL, '2021-03-11 19:52:17', '2021-03-11 19:52:17'),
+(18, 'c', '/questions/tagged/c', 'a general-purpose programming language used for system programming (OS and embedded), libraries, games and cross-platform. This tag should be used with general questions concerning the C language&hellip;', 353687, '669', NULL, NULL, 1, 1, NULL, '2021-03-11 19:52:17', '2021-03-11 19:52:17'),
+(19, 'ruby-on-rails', '/questions/tagged/ruby-on-rails', 'an open source full-stack web application framework written in Ruby. It follows the popular MVC framework model and is known for its &quot;convention over configuration&quot; approach to applic&hellip;', 324652, '184', NULL, NULL, 1, 1, NULL, '2021-03-11 19:52:17', '2021-03-11 19:52:17'),
+(20, 'json', '/questions/tagged/json', 'a serializable data interchange format intended to be machine and human readable. Do not use this tag for native JavaScript objects or JavaScript object literals. &hellip;', 313811, '746', NULL, NULL, 1, 1, NULL, '2021-03-11 19:52:17', '2021-03-11 19:52:17'),
+(21, '.net', '/questions/tagged/.net', 'Do NOT use for questions about .NET Core - use [.net-core] instead. The .NET framework is a software framework designed mainly for the Microsoft Windows operating system. It includes an implementation&hellip;', 306230, '373', NULL, NULL, 1, 1, NULL, '2021-03-11 19:52:17', '2021-03-11 19:52:17'),
+(22, 'sql-server', '/questions/tagged/sql-server', 'a relational database management system (RDBMS). Use this tag for all SQL Server editions including Compact, Express, Azure, Fast-track, APS (formerly PDW) and Azure SQL DW. Do&hellip;', 301196, '498', NULL, NULL, 1, 1, NULL, '2021-03-11 19:52:17', '2021-03-11 19:52:17'),
+(23, 'swift', '/questions/tagged/swift', 'a safe, fast, and expressive general-purpose programming language developed by Apple Inc. for its platforms and Linux. Swift is open-source. Use the tag only for questions about language feat&hellip;', 291494, '753', NULL, NULL, 1, 1, NULL, '2021-03-11 19:52:17', '2021-03-11 19:52:17'),
+(24, 'objective-c', '/questions/tagged/objective-c', 'should be used only on questions that are about Objective-C features or depend on code in the language. The tags [cocoa] and [cocoa-touch] should be used to ask about Apple&#39;s frameworks or cl&hellip;', 291445, '57', NULL, NULL, 1, 1, NULL, '2021-03-11 19:52:17', '2021-03-11 19:52:17'),
+(25, 'reactjs', '/questions/tagged/reactjs', 'a JavaScript library for building user interfaces. It uses a declarative, component-based paradigm and aims to be both efficient and flexible.', 288909, '2265', NULL, NULL, 1, 1, NULL, '2021-03-11 19:52:17', '2021-03-11 19:52:17'),
+(26, 'python-3.x', '/questions/tagged/python-3.x', 'For questions about Python programming that are specific to version 3+ of the language. Use the more generic [python] tag on all Python questions, and only add this one if your question is version-spe&hellip;', 276319, '1503', NULL, NULL, 1, 1, NULL, '2021-03-11 19:52:17', '2021-03-11 19:52:17'),
+(27, 'angularjs', '/questions/tagged/angularjs', 'Use for questions about AngularJS (1.x), the open-source JavaScript framework. Do NOT use this tag for Angular 2 or later versions; instead, use the [angular] tag.', 262049, '59', NULL, NULL, 1, 1, NULL, '2021-03-11 19:52:17', '2021-03-11 19:52:17'),
+(28, 'django', '/questions/tagged/django', 'an open-source server-side web application framework written in Python. It is designed to reduce the effort required to create complex data-driven websites and web applications, with a speci&hellip;', 260886, '874', NULL, NULL, 1, 1, NULL, '2021-03-11 19:52:17', '2021-03-11 19:52:17'),
+(29, 'angular', '/questions/tagged/angular', 'Questions about Angular (not to be confused with AngularJS), the web framework from Google. Use this tag for Angular questions which are not specific to an individual version. For the older AngularJS &hellip;', 247816, '1014', NULL, NULL, 1, 1, NULL, '2021-03-11 19:52:17', '2021-03-11 19:52:17'),
+(30, 'excel', '/questions/tagged/excel', 'Only for questions on programming against Excel objects or files, or complex formula development. You may combine the Excel tag with VBA, VSTO, C#, VB.NET, PowerShell, OLE automation, and other progra&hellip;', 242463, '614', NULL, NULL, 1, 1, NULL, '2021-03-11 19:52:17', '2021-03-11 19:52:17'),
+(31, 'regex', '/questions/tagged/regex', 'Regular expressions provide a declarative language to match patterns within strings. They are commonly used for string validation, parsing, and transformation. Because regular expressions are not full&hellip;', 238086, '448', NULL, NULL, 1, 1, NULL, '2021-03-11 19:52:17', '2021-03-11 19:52:17'),
+(32, 'iphone', '/questions/tagged/iphone', 'unless you are addressing Apple&#39;s iPhone and/or iPod touch specifically. For questions not dependent on hardware, use the tag [ios]. More tags to consider are [xcode] (but only if &hellip;', 220979, '36', NULL, NULL, 1, 1, NULL, '2021-03-11 19:52:17', '2021-03-11 19:52:17'),
+(33, 'ruby', '/questions/tagged/ruby', 'a multi-platform open-source, dynamic object-oriented interpreted language. The [ruby] tag is for questions related to the Ruby language, including its syntax and its libraries. Ruby on Rails &hellip;', 218392, '150', NULL, NULL, 1, 1, NULL, '2021-03-11 19:52:17', '2021-03-11 19:52:17'),
+(34, 'ajax', '/questions/tagged/ajax', 'a technique for creating interactive website user interfaces without the traditional web page refresh or reload. It uses asynchronous data exchange between cl&hellip;', 214867, '220', NULL, NULL, 1, 1, NULL, '2021-03-11 19:52:17', '2021-03-11 19:52:17'),
+(35, 'linux', '/questions/tagged/linux', 'LINUX QUESTIONS MUST BE PROGRAMMING RELATED.\r\n\r\nUse this tag only if your question relates to programming using Linux APIs or Linux-specific behavior, not just because you happen to run your code on L&hellip;', 202365, '545', NULL, NULL, 1, 1, NULL, '2021-03-11 19:52:17', '2021-03-11 19:52:17'),
+(36, 'xml', '/questions/tagged/xml', 'a structured document format defining text encoding rules. When using this tag include additional tags such as programming language, tool sets, XML technologies bei&hellip;', 200597, '271', NULL, NULL, 1, 1, NULL, '2021-03-11 19:52:17', '2021-03-11 19:52:17');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `site_stackoverflow_tags_questions`
+--
+
+DROP TABLE IF EXISTS `site_stackoverflow_tags_questions`;
+CREATE TABLE IF NOT EXISTS `site_stackoverflow_tags_questions` (
+  `tag_question_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Primary key',
+  `tag_id` int(11) NOT NULL COMMENT 'Tag ID',
+  `question_id` int(11) NOT NULL COMMENT 'Question ID',
+  `status` tinyint(4) DEFAULT '1' COMMENT '1: show, 0: hide',
+  `sequence` int(11) DEFAULT NULL COMMENT 'Input order',
+  `created_user_id` int(11) NOT NULL COMMENT 'Created by User Id',
+  `updated_user_id` int(11) NOT NULL COMMENT 'Updated by User Id',
+  `deleted_at` timestamp NULL DEFAULT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL,
+  PRIMARY KEY (`tag_question_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- --------------------------------------------------------
 
@@ -560,7 +702,7 @@ CREATE TABLE IF NOT EXISTS `users` (
 --
 
 INSERT INTO `users` (`id`, `email`, `password`, `permissions`, `activated`, `banned`, `activation_code`, `activated_at`, `last_login`, `persist_code`, `reset_password_code`, `protected`, `created_at`, `updated_at`) VALUES
-(1, 'admin@admin.com', '$2y$10$qlQ9U63Eo5LntBk7C5ZxNuDgG61aKFuH8zu1Tofqr6HtjaWo.td7S', NULL, 1, 0, NULL, NULL, '2021-03-09 21:45:46', '$2y$10$R5zuc41smhYk4Ozns21/m.RgmQ4b0kvJq0mGhugcYr.hFRdAVpTU.', NULL, 0, '2021-03-07 20:12:47', '2021-03-09 21:45:46');
+(1, 'admin@admin.com', '$2y$10$kOc/EHL/wcIUE91hNNgRI.71G69p.sjUVa7hI1N3M0i5k2pIJWE9i', NULL, 1, 0, NULL, NULL, '2021-03-11 18:23:25', '$2y$10$JRyH69/XZBihw6GXRNg8Q.E5jYdXqGtDgd/ecyZpHlZy/44wDm6Mm', NULL, 0, '2021-03-11 18:22:54', '2021-03-11 18:23:25');
 
 -- --------------------------------------------------------
 
@@ -615,7 +757,7 @@ CREATE TABLE IF NOT EXISTS `user_profile` (
 --
 
 INSERT INTO `user_profile` (`id`, `user_id`, `code`, `vat`, `first_name`, `last_name`, `phone`, `state`, `city`, `country`, `sex`, `category_id`, `address`, `avatar`, `created_at`, `updated_at`) VALUES
-(1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-03-07 20:12:47', '2021-03-07 20:12:47');
+(1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-03-11 18:22:54', '2021-03-11 18:22:54');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
