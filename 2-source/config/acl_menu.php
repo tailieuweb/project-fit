@@ -88,5 +88,12 @@ return [
                 "link"        => '/admin/posts',
                 "permissions" => [$admin, '_user-editor']
             ],
+            //Site
+            [
+                'name'        => 'crawler-admin.menus.top-menu',
+                "route"       => "sites.list",
+                "link"        => '/admin/sites',
+                "permissions" => [$admin, '_user-editor']
+            ],
     ]
 ];
