@@ -4,11 +4,11 @@ use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 use Foostart\Category\Helpers\FoostartMigration;
 
-class CreateModulesTable extends FoostartMigration
+class CreateCrawlerWorksCategoriesJobsTable extends FoostartMigration
 {
     public function __construct() {
-        $this->table = 'modules';
-        $this->prefix_column = 'module_';
+        $this->table = 'crawler_works_categories_jobs';
+        $this->prefix_column = 'category_job_';
     }
     /**
      * Run the migrations.
@@ -19,20 +19,14 @@ class CreateModulesTable extends FoostartMigration
     {
         Schema::dropIfExists($this->table);
         Schema::create($this->table, function (Blueprint $table) {
-            
+
             $table->increments($this->prefix_column . 'id')->comment('Primary key');
-            
+
             // Relation
-            $table->integer('category_id')->nullable()->comment('Category ID');
-            
+            $table->integer('category_id')->comment('Category ID');
+            $table->integer('job_id')->comment('Job ID');
+
             // Other attributes
-            //Sender
-            $table->string($this->prefix_column . 'name', 255)->comment('Name');
-            $table->string($this->prefix_column . 'slug', 255)->comment('Slug');
-            $table->text($this->prefix_column . 'description')->nullable()->comment('Description');
-            $table->text($this->prefix_column . 'html')->comment('html');
-            $table->text($this->prefix_column . 'css')->nullable()->comment('css');
-            $table->text($this->prefix_column . 'javascript')->nullable()->comment('javascript');
 
             //Set common columns
             $this->setCommonColumns($table);

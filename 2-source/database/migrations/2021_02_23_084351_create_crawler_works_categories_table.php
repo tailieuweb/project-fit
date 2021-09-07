@@ -4,11 +4,11 @@ use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 use Foostart\Category\Helpers\FoostartMigration;
 
-class CreateSamplesTable extends FoostartMigration
+class CreateCrawlerWorksCategoriesTable extends FoostartMigration
 {
     public function __construct() {
-        $this->table = 'samples';
-        $this->prefix_column = 'sample_';
+        $this->table = 'crawler_works_categories';
+        $this->prefix_column = 'category_';
     }
     /**
      * Run the migrations.
@@ -19,16 +19,17 @@ class CreateSamplesTable extends FoostartMigration
     {
         Schema::dropIfExists($this->table);
         Schema::create($this->table, function (Blueprint $table) {
-            
+
             $table->increments($this->prefix_column . 'id')->comment('Primary key');
-            
+
             // Relation
-            
+            $table->integer('site_id')->comment('Site ID');
+
             // Other attributes
-            $table->string($this->prefix_column . 'name', 255)->comment('Name');
-            $table->text($this->prefix_column . 'description')->comment('Description');
-            $table->integer('version_id')->nullable()->comment('Version ID');
-            
+            $table->string($this->prefix_column . 'name', 500)->comment('Name');
+            $table->string($this->prefix_column . 'url', 255)->comment('Url');
+            $table->text($this->prefix_column . 'overview')->nullable()->comment('Overview');
+
             //Set common columns
             $this->setCommonColumns($table);
         });

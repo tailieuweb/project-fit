@@ -173,7 +173,6 @@ return [
         Intervention\Image\ImageServiceProvider::class,
         Foostart\Front\FrontServiceProvider::class,
         Foostart\Contact\ContactServiceProvider::class,
-        Foostart\Sample\SampleServiceProvider::class,
         Foostart\Module\ModuleServiceProvider::class,
         Foostart\Crawler\CrawlerServiceProvider::class,
 
@@ -237,7 +236,7 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
-        
+
         /*
          * Package Provider
          */
