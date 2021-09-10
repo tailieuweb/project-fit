@@ -94,11 +94,13 @@ return [
     |
     */
     'pages' => [
-        'title-list' => 'List of crawlers',
+        'title-list' => 'List of sites',
+        'title-list-pattern' => 'List of patterns',
         'title-list-search' => 'Search results',
-        'title-edit' => 'Edit crawler',
-        'title-add' => 'Add new crawler',
-        'title-delete' => 'Delete crawler',
+        'title-list-pattern-search' => 'Search results',
+        'title-edit' => 'Edit site',
+        'title-add' => 'Add new site',
+        'title-delete' => 'Delete site',
         'title-config' => 'Current configurations',
         'title-lang' => 'Manage list of languages',
         'title-site' => 'List of sites',
@@ -119,6 +121,7 @@ return [
         'title-list-edit-category' => 'Edit category',
         'title-edit-category' => 'Edit category',
         'title-categories' => 'List of categories',
+        'title-list-pattern' => 'List of patterns',
 
     ],
 
@@ -145,6 +148,7 @@ return [
         'crawl_tag' => 'Crawl tag',
         'crawl_question' => 'Crawl question',
         'crawl_answer' => 'Crawl answer',
+        'restore' => 'Restore',
     ],
 
 
@@ -165,7 +169,8 @@ return [
         'no-selected' => 'No selected',
         'status' => 'Status',
         'site_id' => 'Site',
-        'site' => 'Site'
+        'site' => 'Site',
+        'site_type' => 'Site type',
     ],
 
 
@@ -230,6 +235,10 @@ return [
         'category_description' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
         'category_url' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
         'category_name' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+        'slug' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+        'site_type' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+        'pattern_description' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+        'job_overview' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
     ],
 
 
@@ -262,7 +271,7 @@ return [
     |
     */
     'fields' => [
-        'id' => 'Crawler ID',
+        'id' => 'ID',
         'name' => 'Crawler name',
         'description' => 'Crawler description',
         'overview' => 'Crawler overview',
@@ -283,6 +292,8 @@ return [
         'category_id' => 'Category ID',
         'category_name' => 'Category name',
         'site_name' => 'Site name',
+        'pattern_name' => 'Pattern name',
+        'pattern_machine_name' => 'Pattern name',
 
     ],
 
@@ -356,6 +367,8 @@ return [
         'category_description' => 'Category description',
         'title-search-categories' => 'Search categories',
         'category_overview' => 'Category overview',
+        'slug' => 'Site lug',
+        'job_overview' => 'Job overview'
     ],
 
 
