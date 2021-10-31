@@ -175,6 +175,8 @@ return [
         Foostart\Contact\ContactServiceProvider::class,
         Foostart\Module\ModuleServiceProvider::class,
         Foostart\Crawler\CrawlerServiceProvider::class,
+        Foostart\Pexcel\PexcelServiceProvider::class,
+        Maatwebsite\Excel\ExcelServiceProvider::class,
 
         /*
          * Application Service Providers...
@@ -241,6 +243,7 @@ return [
          * Package Provider
          */
         'Image' => Intervention\Image\Facades\Image::class,
+        'Excel' => Maatwebsite\Excel\Facades\Excel::class,
 
     ],
 

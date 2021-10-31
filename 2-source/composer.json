@@ -15,7 +15,7 @@
         "foostart/package-crawler": "^10.0",
         "foostart/package-front": "^10.0",
         "foostart/package-module": "^10.0",
-        "foostart/package-pexcel": "^10.0",
+        "foostart/package-pexcel": "^11.0",
         "foostart/package-post": "^10.0",
         "foostart/package-sample": "^10.0",
         "fruitcake/laravel-cors": "^2.0",

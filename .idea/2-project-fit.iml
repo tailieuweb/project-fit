@@ -118,6 +118,15 @@
       <excludeFolder url="file://$MODULE_DIR$/2-source/vendor/matthiasmullie/path-converter" />
       <excludeFolder url="file://$MODULE_DIR$/2-source/vendor/ramsey/uuid" />
       <excludeFolder url="file://$MODULE_DIR$/2-source/vendor/matthiasmullie/minify" />
+      <excludeFolder url="file://$MODULE_DIR$/2-source/vendor/foostart/package-sample" />
+      <excludeFolder url="file://$MODULE_DIR$/2-source/vendor/ezyang/htmlpurifier" />
+      <excludeFolder url="file://$MODULE_DIR$/2-source/vendor/phpoffice/phpspreadsheet" />
+      <excludeFolder url="file://$MODULE_DIR$/2-source/vendor/maennchen/zipstream-php" />
+      <excludeFolder url="file://$MODULE_DIR$/2-source/vendor/psr/http-factory" />
+      <excludeFolder url="file://$MODULE_DIR$/2-source/vendor/myclabs/php-enum" />
+      <excludeFolder url="file://$MODULE_DIR$/2-source/vendor/markbaker/matrix" />
+      <excludeFolder url="file://$MODULE_DIR$/2-source/vendor/markbaker/complex" />
+      <excludeFolder url="file://$MODULE_DIR$/2-source/vendor/maatwebsite/excel" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
