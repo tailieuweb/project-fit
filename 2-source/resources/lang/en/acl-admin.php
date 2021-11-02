@@ -45,7 +45,8 @@ return [
         'crawler_works_jobs' => 'Crawler Jobs',
         'permissions' => 'Permissions',
         'operations' => 'Operations',
-        'contexts' => 'Contextes',
+        'contexts' => 'Contexts',
+        'pexcel' => 'Pexcels',
     ],
 
 
@@ -154,6 +155,7 @@ return [
      */
     'sidebars' => [
         'users-list' => 'Users list',
+        'upload-user' => 'Upload',
         'add-user' => 'Add user',
         'groups-list' => 'List of groups',
         'add-group' => 'Add group',
