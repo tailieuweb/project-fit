@@ -165,18 +165,20 @@ return [
         /*
          * Package Service Providers...
          */
+        Maatwebsite\Excel\ExcelServiceProvider::class,
+        Intervention\Image\ImageServiceProvider::class,
         Foostart\Acl\Authentication\AuthenticationServiceProvider::class,
         Foostart\Category\CategoryServiceProvider::class,
         Foostart\Post\PostServiceProvider::class,
         Foostart\Slideshow\SlideshowServiceProvider::class,
         Foostart\Filemanager\FilemanagerServiceProvider::class,
-        Intervention\Image\ImageServiceProvider::class,
         Foostart\Front\FrontServiceProvider::class,
         Foostart\Contact\ContactServiceProvider::class,
         Foostart\Module\ModuleServiceProvider::class,
         Foostart\Crawler\CrawlerServiceProvider::class,
         Foostart\Pexcel\PexcelServiceProvider::class,
-        Maatwebsite\Excel\ExcelServiceProvider::class,
+        Foostart\Company\CompanyServiceProvider::class,
+        Foostart\Courses\CourseServiceProvider::class,
 
         /*
          * Application Service Providers...

@@ -118,7 +118,6 @@
       <excludeFolder url="file://$MODULE_DIR$/2-source/vendor/matthiasmullie/path-converter" />
       <excludeFolder url="file://$MODULE_DIR$/2-source/vendor/ramsey/uuid" />
       <excludeFolder url="file://$MODULE_DIR$/2-source/vendor/matthiasmullie/minify" />
-      <excludeFolder url="file://$MODULE_DIR$/2-source/vendor/foostart/package-sample" />
       <excludeFolder url="file://$MODULE_DIR$/2-source/vendor/ezyang/htmlpurifier" />
       <excludeFolder url="file://$MODULE_DIR$/2-source/vendor/phpoffice/phpspreadsheet" />
       <excludeFolder url="file://$MODULE_DIR$/2-source/vendor/maennchen/zipstream-php" />

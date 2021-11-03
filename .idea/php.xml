@@ -139,6 +139,9 @@
       <path value="$PROJECT_DIR$/2-source/vendor/markbaker/matrix" />
       <path value="$PROJECT_DIR$/2-source/vendor/markbaker/complex" />
       <path value="$PROJECT_DIR$/2-source/vendor/maatwebsite/excel" />
+      <path value="$PROJECT_DIR$/2-source/vendor/foostart/package-courses" />
+      <path value="$PROJECT_DIR$/2-source/vendor/foostart/package-company" />
+      <path value="$PROJECT_DIR$/2-source/vendor/foostart/package-internship" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.3" />
