@@ -134,6 +134,7 @@ return [
     */
     'descriptions' => [
         'form' => 'Pexcel form',
+        'range_data' => 'Range data',
         'update' => 'Update pexcel',
         'name' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
         'category' => 'Click <a href=":href">here</a> to manage list of categories by token.',
@@ -181,6 +182,7 @@ return [
     */
     'fields' => [
         'id' => 'Pexcel ID',
+        'category_id' => 'Category ID',
         'name' => 'Pexcel name',
         'description' => 'Pexcel Description',
         'overview' => 'Pexcel Overview',
@@ -203,6 +205,7 @@ return [
     */
     'labels' => [
         'name' => 'Pexcel name',
+        'range_data' => 'Range data',
         'overview' => 'Pexcel overview',
         'description' => 'Pexcel description',
         'image' => 'Pexcel image',

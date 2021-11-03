@@ -2,6 +2,7 @@
 
 use Foostart\Acl\Library\Constants\FoostartConstants;
 use Foostart\Category\Helpers\FoostartSeeder;
+use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\DB;
 use Carbon\Carbon;
 use Foostart\Pexcel\Models\Pexcel;
