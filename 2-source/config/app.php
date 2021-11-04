@@ -178,7 +178,7 @@ return [
         Foostart\Crawler\CrawlerServiceProvider::class,
         Foostart\Pexcel\PexcelServiceProvider::class,
         Foostart\Company\CompanyServiceProvider::class,
-        Foostart\Courses\CourseServiceProvider::class,
+        Foostart\Courses\CoursesServiceProvider::class,
 
         /*
          * Application Service Providers...

@@ -13,7 +13,7 @@
         "foostart/package-acl": "^10.0",
         "foostart/package-company": "^2.0",
         "foostart/package-contact": "^10.0",
-        "foostart/package-courses": "^1.0",
+        "foostart/package-courses": "^2.0",
         "foostart/package-crawler": "^10.0",
         "foostart/package-front": "^10.0",
         "foostart/package-internship": "^1.0",
