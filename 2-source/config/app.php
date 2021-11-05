@@ -179,6 +179,7 @@ return [
         Foostart\Pexcel\PexcelServiceProvider::class,
         Foostart\Company\CompanyServiceProvider::class,
         Foostart\Courses\CoursesServiceProvider::class,
+        Foostart\Internship\InternshipServiceProvider::class,
 
         /*
          * Application Service Providers...
