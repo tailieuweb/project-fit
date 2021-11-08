@@ -6,3 +6,6 @@ php artisan vendor:publish --provider="Foostart\Category\CategoryServiceProvider
 php artisan migrate
 php artisan db:seed --class=CompanySeeder
 php artisan db:seed --class=CourseSeeder
+php artisan db:seed --class=CrawlerSeeder
+php artisan db:seed --class=PexcelSeeder
+php artisan db:seed --class=CompanySeeder
