@@ -22,6 +22,7 @@
         "foostart/package-post": "^10.0",
         "foostart/package-sample": "^10.0",
         "fruitcake/laravel-cors": "^2.0",
+        "gregwar/captcha": "1.1.9",
         "guzzlehttp/guzzle": "^7.0.1",
         "laravel/framework": "^8.12",
         "laravel/tinker": "^2.5",
