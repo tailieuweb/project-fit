@@ -2,41 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="105f7c83-e2c3-4f13-98ee-8fbf50c631e9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/2-project-fit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/2-project-fit.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/.idea/2-source.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/.idea/php.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/.idea/phpunit.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/public/packages/foostart/package-front/js/aao-scripts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/public/packages/foostart/package-front/js/admissions-scripts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/public/packages/foostart/package-front/js/blocks/134.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/public/packages/foostart/package-front/js/blocks/141.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/public/packages/foostart/package-front/js/blocks/151.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/public/packages/foostart/package-front/js/blocks/165.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/public/packages/foostart/package-front/js/blocks/173.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/public/packages/foostart/package-front/js/blocks/ekko-lightbox-min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/public/packages/foostart/package-front/js/blocks/swiper.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/public/packages/foostart/package-front/js/blocks/turn.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/public/packages/foostart/package-front/js/bootstrap3.3.6.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/public/packages/foostart/package-front/js/brochure-scripts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/public/packages/foostart/package-front/js/contact-scripts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/public/packages/foostart/package-front/js/home-scripts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/public/packages/foostart/package-front/js/intro-scripts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/public/packages/foostart/package-front/js/jquery-2.1.4.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/public/packages/foostart/package-front/js/news_detail-scripts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/public/packages/foostart/package-front/js/news_list-scripts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/public/packages/foostart/package-front/js/personnel_detail-scripts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/public/packages/foostart/package-front/js/personnel_list-scripts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/public/packages/foostart/package-front/js/student_detail-scripts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/public/packages/foostart/package-front/js/student_list-scripts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/public/packages/foostart/package-front/js/thematic_detail-scripts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/public/packages/foostart/package-front/js/thematic_list-scripts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/resources/lang/vi/course-admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/resources/lang/vi/course-admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,7 +179,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/2-source/vendor/foostart/package-courses/Views/admin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../1-laravel-8x" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -233,6 +199,12 @@
       <workItem from="1637656040095" duration="254000" />
       <workItem from="1637656374273" duration="32450000" />
       <workItem from="1637938595944" duration="269000" />
+      <workItem from="1637938917906" duration="4491000" />
+      <workItem from="1638485719342" duration="584000" />
+      <workItem from="1638490495032" duration="1013000" />
+      <workItem from="1638935244906" duration="716000" />
+      <workItem from="1639559254783" duration="419000" />
+      <workItem from="1639597228144" duration="61000" />
     </task>
     <servers />
   </component>
