@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="105f7c83-e2c3-4f13-98ee-8fbf50c631e9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-source/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-source/resources/lang/vi/course-admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/resources/lang/vi/course-admin.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,12 +181,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/2-source/storage/framework/laravel-excel" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/2-source/vendor/foostart/package-pexcel/Helper" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\1-github-workspace\1-tailieuweb\2-project-fit\2-source\vendor\foostart\package-pexcel\Helper" />
       <recent name="D:\1-github-workspace\1-tailieuweb\2-project-fit\2-source\storage\framework\laravel-excel" />
       <recent name="D:\1-github-workspace\1-tailieuweb\2-project-fit\2-source\vendor\foostart\package-courses\Views\admin" />
     </key>
@@ -200,7 +203,7 @@
       <workItem from="1637656040095" duration="254000" />
       <workItem from="1637656374273" duration="32450000" />
       <workItem from="1637938595944" duration="269000" />
-      <workItem from="1642048875358" duration="11994000" />
+      <workItem from="1642048875358" duration="23467000" />
     </task>
     <servers />
   </component>
