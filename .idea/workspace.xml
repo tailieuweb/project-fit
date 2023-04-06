@@ -3,8 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="105f7c83-e2c3-4f13-98ee-8fbf50c631e9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/resources/lang/vi/crawler-admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/resources/lang/vi/crawler-admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-source/public/packages/foostart/package-front/images/world-map1-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/public/packages/foostart/package-front/images/world-map1-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-source/storage/framework/sessions/31Cyg1BHddvP2AcD0v78nu9KpYHEg4RrDc50CgBj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-source/storage/framework/sessions/7PskeCgSOurhinZSnZc0MvhJQs9bSk2yEjJCo2fw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-source/storage/framework/sessions/SPAUWVbFMrexbpmPGuKv6t3I04h4VnGqWavhISLO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-source/storage/framework/sessions/bCTDPfwEQPdgQo93ZSlFZVYhxPdUEnt2ijHDjYTg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-source/storage/framework/sessions/cT76DRb10ja2lkDaJh7e63gmtangd4mHhKS9ArMg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-source/storage/framework/sessions/fYNaVrcRHWh3Ghkg9q3DtnZNuRGvWd0tAEyRQ0Jk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-source/storage/framework/sessions/jXwhbE4hpi4BMkgXBGdhvFCElA8oRt1IHsZokhA3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-source/storage/framework/sessions/yQKAzLtgTaw6MNCHkwbvvIfwoighbzb1TWzy6EQi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-source/storage/logs/laravel.log" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/storage/logs/laravel.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-source/vendor" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/vendor" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +35,13 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="PhpServers">
+    <servers>
+      <server host="127.0.0.1" id="2b19913e-f720-428b-834e-b10e9a65e219" name="127.0.0.1" port="8000" />
+    </servers>
+  </component>
+  <component name="PhpWebServerValidation" path_to_validation_script="D:\1-github-workspace\1-tailieuweb\2-project-fit\2-source\public" selected_validation_type="LOCAL" web_path_to_validation_script="http://127.0.0.1:8000" />
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/2-source/vendor/foostart/package-courses" />
@@ -181,7 +197,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../15-project-task" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/2-source/public" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -192,6 +208,11 @@
       <recent name="D:\1-github-workspace\1-tailieuweb\2-project-fit\2-source\storage\framework\laravel-excel" />
       <recent name="D:\1-github-workspace\1-tailieuweb\2-project-fit\2-source\vendor\foostart\package-courses\Views\admin" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="127.0.0.1" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="127.0.0.1">
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -215,10 +236,25 @@
       <workItem from="1652425292945" duration="13487000" />
       <workItem from="1653880795355" duration="908000" />
       <workItem from="1654909198715" duration="577000" />
+      <workItem from="1663836677788" duration="1203000" />
+      <workItem from="1664008831570" duration="587000" />
+      <workItem from="1664044481946" duration="2516000" />
+      <workItem from="1664114550614" duration="1200000" />
+      <workItem from="1664529195114" duration="1629000" />
+      <workItem from="1664587044542" duration="1191000" />
+      <workItem from="1680539717241" duration="6841000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="server.php">
+        <watch expression="$elo-&gt;toSql()" language="PHP" />
+        <watch expression="$this-&gt;getUser()" language="PHP" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
