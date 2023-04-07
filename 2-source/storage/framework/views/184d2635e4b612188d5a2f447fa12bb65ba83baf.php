@@ -1,2 +1,0 @@
-<!--jQuery-->
-<?php echo HTML::script('packages/foostart/js/vendor/jquery-2.2.4.min.js'); ?><?php /**PATH /var/www/html/internship/2-source/vendor/foostart/package-acl/app/Authentication/../../resources/views/assets/lib_js.blade.php ENDPATH**/ ?>
