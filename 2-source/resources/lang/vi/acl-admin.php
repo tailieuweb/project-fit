@@ -36,6 +36,7 @@ return [
         'pattern' => 'Pattern',
         'pexcel' => 'Pexcel',
         'company' => 'Company',
+        'posts' => 'Quản lý bài viết',
     ],
 
     /***********************************************************************

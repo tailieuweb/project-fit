@@ -32,6 +32,10 @@ return [
         'pattern' => 'Pattern',
         'pexcel' => 'Pexcel',
         'company' => 'Company',
+        'posts' => 'Posts',
+        'dashboard' => 'Dashboard',
+        'styles' => 'Styles',
+        'slideshows' => 'Slideshows',
     ],
 
     /***********************************************************************
@@ -56,6 +60,7 @@ return [
         'contexts' => 'Contexts',
         'pexcel' => 'Pexcels',
         'company' => 'Company',
+        'slideshow' => 'Slideshow',
     ],
 
 
@@ -146,7 +151,7 @@ return [
         'permission-edit' => 'Edit permission page',
         'group-list' => 'List of groups',
         'group-edit' => 'Edit group page',
-
+        'login' => 'Login',
         'title-config' => 'Current configurations',
         'title-lang' => 'Manage languages',
     ],
@@ -209,6 +214,7 @@ return [
      */
     'labels' => [
         'email' => 'Email',
+        'device_token' => 'Device token',
         'start_date' => 'Start date',
         'end_date' => 'End date',
         'first_name' => 'First name',
@@ -255,6 +261,7 @@ return [
         'id' => 'ID',
         'keyword' => 'Keyword',
         'counter' => '#',
+        'suspended' => 'Suspended',
     ],
 
 
@@ -270,6 +277,7 @@ return [
         'user-restore' => 'Are you sure to restore this item?',
         'permission-not-found' => 'No permissions found.',
         'empty-data' => 'Empty data',
+        'captcha-error' => 'The captcha is not valid, please try again.'
     ],
 
 
