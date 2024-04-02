@@ -3,31 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="105f7c83-e2c3-4f13-98ee-8fbf50c631e9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/.env" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2-source/bootstrap/cache/packages.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/bootstrap/cache/packages.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2-source/bootstrap/cache/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/bootstrap/cache/services.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/config/acl_base.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/config/acl_base.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/config/acl_sentry.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/config/acl_sentry.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/database/migrations/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/database/migrations/.gitkeep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/database/migrations/2021_02_24_122150_create_user_profile_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/database/migrations/2021_02_24_122150_create_user_profile_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/database/seeders/ContextSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/database/seeders/ContextSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/public/packages/foostart/css/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/public/packages/foostart/css/fonts.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/public/packages/foostart/css/package-category.css" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/public/packages/foostart/css/package-category.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/public/packages/foostart/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/public/packages/foostart/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/public/packages/foostart/less/package-category.less" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/public/packages/foostart/less/package-category.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/public/packages/foostart/package-front/css/aao-styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/public/packages/foostart/package-front/css/aao-styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/public/packages/foostart/package-front/css/admissions-styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/public/packages/foostart/package-front/css/admissions-styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/public/packages/foostart/package-front/css/contact-styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/public/packages/foostart/package-front/css/contact-styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/public/packages/foostart/package-front/css/home-styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/public/packages/foostart/package-front/css/home-styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/public/packages/foostart/package-front/css/intro-styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/public/packages/foostart/package-front/css/intro-styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/public/packages/foostart/package-front/css/news_list-styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/public/packages/foostart/package-front/css/news_list-styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/public/packages/foostart/package-front/css/personnel_list-styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/public/packages/foostart/package-front/css/personnel_list-styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/public/packages/foostart/package-front/images/world-map1-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/public/packages/foostart/package-front/images/world-map1-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/resources/lang/en/acl-admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/resources/lang/en/acl-admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/resources/lang/en/acl-front.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/resources/lang/en/acl-front.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/resources/lang/vi/acl-admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/resources/lang/vi/acl-admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/resources/lang/vi/acl-front.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/resources/lang/vi/acl-front.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/resources/lang/vi/post-admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/resources/lang/vi/post-admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-source/storage/logs/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/storage/logs/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2-source/storage/logs/laravel.log" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/storage/logs/laravel.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2-source/vendor" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/vendor" afterDir="false" />
     </list>
@@ -50,6 +28,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="PhpServers">
     <servers>
@@ -208,15 +189,12 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/2-source" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\1-github-workspace\1-tailieuweb\2-project-fit\2-source" />
@@ -259,6 +237,8 @@
       <workItem from="1664529195114" duration="1629000" />
       <workItem from="1664587044542" duration="1191000" />
       <workItem from="1680539717241" duration="15316000" />
+      <workItem from="1711964902760" duration="697000" />
+      <workItem from="1712020107566" duration="2611000" />
     </task>
     <servers />
   </component>
