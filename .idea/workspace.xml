@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="105f7c83-e2c3-4f13-98ee-8fbf50c631e9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/storage/logs/laravel.log" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/storage/logs/laravel.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/vendor" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/vendor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-source/public/packages/foostart/css/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/public/packages/foostart/css/fonts.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -237,7 +235,7 @@
       <workItem from="1664587044542" duration="1191000" />
       <workItem from="1680539717241" duration="15316000" />
       <workItem from="1711964902760" duration="697000" />
-      <workItem from="1712020107566" duration="9615000" />
+      <workItem from="1712020107566" duration="10126000" />
     </task>
     <servers />
   </component>
