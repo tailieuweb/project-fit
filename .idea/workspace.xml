@@ -2,10 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="105f7c83-e2c3-4f13-98ee-8fbf50c631e9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/resources/lang/vi/internship-admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/resources/lang/vi/internship-admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-source/3-publish.bat" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/3-publish.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-source/bootstrap/cache/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/bootstrap/cache/services.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-source/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-source/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-source/config/acl_menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/config/acl_menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-source/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-source/database/migrations/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/database/migrations/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-source/database/seeders/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/database/seeders/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-source/public/packages/foostart/css/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/public/packages/foostart/css/fonts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-source/resources/lang/en/acl-admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/resources/lang/en/acl-admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-source/resources/lang/vi/acl-admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/resources/lang/vi/acl-admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-source/resources/lang/vi/acl-front.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/resources/lang/vi/acl-front.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2-source/storage/logs/laravel.log" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/storage/logs/laravel.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2-source/vendor" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/vendor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-source/vendor/foostart/package-forum/Views/admin/forum-form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/vendor/foostart/package-forum/Views/admin/forum-form.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +43,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpServers">
     <servers>
       <server host="127.0.0.1" id="2b19913e-f720-428b-834e-b10e9a65e219" name="127.0.0.1" port="8000" />
@@ -178,6 +192,7 @@
       <path value="$PROJECT_DIR$/2-source/vendor/myclabs/php-enum" />
       <path value="$PROJECT_DIR$/2-source/vendor/maatwebsite/excel" />
       <path value="$PROJECT_DIR$/2-source/vendor/markbaker/matrix" />
+      <path value="$PROJECT_DIR$/2-source/vendor/foostart/package-forum" />
     </include_path>
   </component>
   <component name="ProjectId" id="21JP5ifqRgAxOji3dleQqfLMfZ0" />
@@ -190,8 +205,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/5-research/1-gh/1-tailieuweb/project-fit/2-source/public",
-    "settings.editor.selected.configurable": "reference.webide.settings.project.settings.php",
+    "last_opened_file_path": "D:/5-research/1-gh/3-foostart/package-forum",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "web-ide.project.structure",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -238,27 +254,42 @@
       <workItem from="1664587044542" duration="1191000" />
       <workItem from="1680539717241" duration="15316000" />
       <workItem from="1711964902760" duration="697000" />
-      <workItem from="1712020107566" duration="15608000" />
+      <workItem from="1712020107566" duration="34810000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/2-source/vendor/foostart/package-internship/Controllers/Admin/InternshipAdminController.php</url>
-          <line>195</line>
-          <option name="timeStamp" value="6" />
+          <url>file://$PROJECT_DIR$/2-source/vendor/foostart/package-forum/Controllers/Admin/ForumAdminController.php</url>
+          <line>215</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/2-source/vendor/foostart/package-internship/Controllers/Admin/InternshipAdminController.php</url>
-          <line>287</line>
-          <option name="timeStamp" value="7" />
+          <url>file://$PROJECT_DIR$/2-source/vendor/foostart/package-forum/Models/Forum.php</url>
+          <line>350</line>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

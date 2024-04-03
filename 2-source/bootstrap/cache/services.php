@@ -49,10 +49,11 @@
     45 => 'Foostart\\Company\\CompanyServiceProvider',
     46 => 'Foostart\\Courses\\CoursesServiceProvider',
     47 => 'Foostart\\Internship\\InternshipServiceProvider',
-    48 => 'App\\Providers\\AppServiceProvider',
-    49 => 'App\\Providers\\AuthServiceProvider',
-    50 => 'App\\Providers\\EventServiceProvider',
-    51 => 'App\\Providers\\RouteServiceProvider',
+    48 => 'Foostart\\Forum\\ForumServiceProvider',
+    49 => 'App\\Providers\\AppServiceProvider',
+    50 => 'App\\Providers\\AuthServiceProvider',
+    51 => 'App\\Providers\\EventServiceProvider',
+    52 => 'App\\Providers\\RouteServiceProvider',
   ),
   'eager' => 
   array (
@@ -89,10 +90,11 @@
     30 => 'Foostart\\Company\\CompanyServiceProvider',
     31 => 'Foostart\\Courses\\CoursesServiceProvider',
     32 => 'Foostart\\Internship\\InternshipServiceProvider',
-    33 => 'App\\Providers\\AppServiceProvider',
-    34 => 'App\\Providers\\AuthServiceProvider',
-    35 => 'App\\Providers\\EventServiceProvider',
-    36 => 'App\\Providers\\RouteServiceProvider',
+    33 => 'Foostart\\Forum\\ForumServiceProvider',
+    34 => 'App\\Providers\\AppServiceProvider',
+    35 => 'App\\Providers\\AuthServiceProvider',
+    36 => 'App\\Providers\\EventServiceProvider',
+    37 => 'App\\Providers\\RouteServiceProvider',
   ),
   'deferred' => 
   array (

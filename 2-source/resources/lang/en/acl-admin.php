@@ -10,6 +10,7 @@ return [
      */
     'breadcrumbs' => [
         'admin' => 'Admin',
+        'branch' => 'Branch',
         'diary' => 'Diary',
         'edit_company' => 'Edit company',
         'internship' => 'Internship',
@@ -47,6 +48,7 @@ return [
      */
     'menu' => [
         'dashboard' => 'Dashboard',
+        'branch' => 'Branch',
         'internship' => 'Internship',
         'course' => 'Course',
         'users' => 'Users',
@@ -151,7 +153,7 @@ return [
         'permission-edit' => 'Edit permission page',
         'group-list' => 'List of groups',
         'group-edit' => 'Edit group page',
-        'login' => 'Login',
+
         'title-config' => 'Current configurations',
         'title-lang' => 'Manage languages',
     ],

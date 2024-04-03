@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fd36e8e8084eb385ad00b34276049783",
+    "content-hash": "8e98aec0d6b419e99e76564d82f8f048",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -924,6 +924,49 @@
                 "source": "https://github.com/foostart/package-filemanager/tree/8.0.1"
             },
             "time": "2020-12-29T08:09:38+00:00"
+        },
+        {
+            "name": "foostart/package-forum",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/foostart/package-forum.git",
+                "reference": "bee5fe3937fdd89668823c6f32f9c20fe3363ddb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/foostart/package-forum/zipball/bee5fe3937fdd89668823c6f32f9c20fe3363ddb",
+                "reference": "bee5fe3937fdd89668823c6f32f9c20fe3363ddb",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Foostart\\Forum\\": "/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "FooStart",
+                    "email": "foostart.com@gmail.com",
+                    "homepage": "http://foostart.com"
+                }
+            ],
+            "description": "Manage questions and answers",
+            "keywords": [
+                "foostart",
+                "laravel 8 package post"
+            ],
+            "support": {
+                "issues": "https://github.com/foostart/package-forum/issues",
+                "source": "https://github.com/foostart/package-forum/tree/main"
+            },
+            "time": "2024-04-03T03:09:48+00:00"
         },
         {
             "name": "foostart/package-front",
@@ -9014,12 +9057,14 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "foostart/package-forum": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
         "php": "^7.3|^8.0"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "2.3.0"
 }

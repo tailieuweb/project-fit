@@ -36,7 +36,7 @@ return [
         'pattern' => 'Pattern',
         'pexcel' => 'Pexcel',
         'company' => 'Company',
-        'posts' => 'Quản lý bài viết',
+        'forums' => 'Hỏi - đáp',
     ],
 
     /***********************************************************************
@@ -61,6 +61,7 @@ return [
         'contexts' => 'Contexts',
         'pexcel' => 'Pexcels',
         'company' => 'Company',
+        'forum' => 'Q&A',
     ],
 
 

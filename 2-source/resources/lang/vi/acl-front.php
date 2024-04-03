@@ -83,7 +83,7 @@ return [
         'title-config' => 'Current configurations',
         'title-lang' => 'Manage languages',
         'recovery-password' => 'Recovery password',
-        'login' => 'ACL',
+        'login' => 'Internship',
         'title-register-complelete' => 'Registration completed',
         'title-password-recovery' => 'Password recovery',
         'title-signup-email' => 'Registration request received',

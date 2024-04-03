@@ -15,6 +15,7 @@
         "foostart/package-contact": "^10.0",
         "foostart/package-courses": "^2.0",
         "foostart/package-crawler": "^10.0",
+        "foostart/package-forum": "dev-main",
         "foostart/package-front": "^10.0",
         "foostart/package-internship": "^1.0",
         "foostart/package-module": "^10.0",

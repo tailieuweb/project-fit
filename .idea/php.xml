@@ -142,6 +142,7 @@
       <path value="$PROJECT_DIR$/2-source/vendor/myclabs/php-enum" />
       <path value="$PROJECT_DIR$/2-source/vendor/maatwebsite/excel" />
       <path value="$PROJECT_DIR$/2-source/vendor/markbaker/matrix" />
+      <path value="$PROJECT_DIR$/2-source/vendor/foostart/package-forum" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.3" />
