@@ -2,23 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="105f7c83-e2c3-4f13-98ee-8fbf50c631e9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/3-publish.bat" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/3-publish.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/bootstrap/cache/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/bootstrap/cache/services.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/config/acl_menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/config/acl_menu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/database/migrations/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/database/migrations/.gitkeep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/database/seeders/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/database/seeders/.gitkeep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/public/packages/foostart/css/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/public/packages/foostart/css/fonts.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/resources/lang/en/acl-admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/resources/lang/en/acl-admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/resources/lang/vi/acl-admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/resources/lang/vi/acl-admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/resources/lang/vi/acl-front.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/resources/lang/vi/acl-front.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-source/database/migrations/2024_04_03_084351_create_forum_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/database/migrations/2024_04_03_084351_create_forum_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2-source/storage/logs/laravel.log" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/storage/logs/laravel.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2-source/vendor" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/vendor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/vendor/foostart/package-forum/Views/admin/forum-form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/vendor/foostart/package-forum/Views/admin/forum-form.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-source/vendor/foostart/package-forum/Views/admin/forum-item.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/vendor/foostart/package-forum/Views/admin/forum-item.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +31,6 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpServers">
     <servers>
       <server host="127.0.0.1" id="2b19913e-f720-428b-834e-b10e9a65e219" name="127.0.0.1" port="8000" />
@@ -205,7 +192,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/5-research/1-gh/3-foostart/package-forum",
+    "last_opened_file_path": "D:/5-research/1-gh/1-tailieuweb/project-fit/2-source/vendor/foostart/package-forum/database/migrations",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "web-ide.project.structure",
     "vue.rearranger.settings.migration": "true"
@@ -213,6 +200,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\5-research\1-gh\1-tailieuweb\project-fit\2-source\vendor\foostart\package-forum\database\migrations" />
       <recent name="D:\1-github-workspace\1-tailieuweb\2-project-fit\2-source" />
       <recent name="D:\1-github-workspace\1-tailieuweb\2-project-fit\2-source\vendor\foostart\package-pexcel\Helper" />
       <recent name="D:\1-github-workspace\1-tailieuweb\2-project-fit\2-source\storage\framework\laravel-excel" />
@@ -254,7 +242,7 @@
       <workItem from="1664587044542" duration="1191000" />
       <workItem from="1680539717241" duration="15316000" />
       <workItem from="1711964902760" duration="697000" />
-      <workItem from="1712020107566" duration="34810000" />
+      <workItem from="1712020107566" duration="39196000" />
     </task>
     <servers />
   </component>
