@@ -3,10 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="105f7c83-e2c3-4f13-98ee-8fbf50c631e9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/database/migrations/2024_04_03_084351_create_forum_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/database/migrations/2024_04_03_084351_create_forum_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-source/resources/lang/vi/forum-admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/resources/lang/vi/forum-admin.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2-source/storage/logs/laravel.log" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/storage/logs/laravel.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2-source/vendor" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/vendor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/vendor/foostart/package-forum/Views/admin/forum-item.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/vendor/foostart/package-forum/Views/admin/forum-item.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-source/vendor/foostart/package-forum/Views/admin/forum-answers.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/vendor/foostart/package-forum/Views/admin/forum-answers.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +192,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/5-research/1-gh/1-tailieuweb/project-fit/2-source/vendor/foostart/package-forum/database/migrations",
+    "last_opened_file_path": "D:/5-research/1-gh/1-tailieuweb/project-fit/2-source/vendor/foostart/package-forum/Views/admin",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "web-ide.project.structure",
     "vue.rearranger.settings.migration": "true"
@@ -200,11 +200,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\5-research\1-gh\1-tailieuweb\project-fit\2-source\vendor\foostart\package-forum\Views\admin" />
       <recent name="D:\5-research\1-gh\1-tailieuweb\project-fit\2-source\vendor\foostart\package-forum\database\migrations" />
       <recent name="D:\1-github-workspace\1-tailieuweb\2-project-fit\2-source" />
       <recent name="D:\1-github-workspace\1-tailieuweb\2-project-fit\2-source\vendor\foostart\package-pexcel\Helper" />
       <recent name="D:\1-github-workspace\1-tailieuweb\2-project-fit\2-source\storage\framework\laravel-excel" />
-      <recent name="D:\1-github-workspace\1-tailieuweb\2-project-fit\2-source\vendor\foostart\package-courses\Views\admin" />
     </key>
   </component>
   <component name="RunManager">
@@ -242,7 +242,7 @@
       <workItem from="1664587044542" duration="1191000" />
       <workItem from="1680539717241" duration="15316000" />
       <workItem from="1711964902760" duration="697000" />
-      <workItem from="1712020107566" duration="39196000" />
+      <workItem from="1712020107566" duration="46745000" />
     </task>
     <servers />
   </component>
@@ -265,7 +265,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/2-source/vendor/foostart/package-forum/Controllers/Admin/ForumAdminController.php</url>
-          <line>215</line>
+          <line>216</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
