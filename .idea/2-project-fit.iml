@@ -20,6 +20,18 @@
       <excludeFolder url="file://$MODULE_DIR$/2-source/vendor/nette/schema" />
       <excludeFolder url="file://$MODULE_DIR$/2-source/vendor/carbonphp/carbon-doctrine-types" />
       <excludeFolder url="file://$MODULE_DIR$/2-source/vendor/dflydev/dot-access-data" />
+      <excludeFolder url="file://$MODULE_DIR$/2-source/vendor/dnoegel/php-xdg-base-dir" />
+      <excludeFolder url="file://$MODULE_DIR$/2-source/vendor/phpspec/prophecy" />
+      <excludeFolder url="file://$MODULE_DIR$/2-source/vendor/ezyang/htmlpurifier" />
+      <excludeFolder url="file://$MODULE_DIR$/2-source/vendor/myclabs/php-enum" />
+      <excludeFolder url="file://$MODULE_DIR$/2-source/vendor/symfony/http-client-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/2-source/vendor/phpoffice/phpspreadsheet" />
+      <excludeFolder url="file://$MODULE_DIR$/2-source/vendor/maennchen/zipstream-php" />
+      <excludeFolder url="file://$MODULE_DIR$/2-source/vendor/markbaker/matrix" />
+      <excludeFolder url="file://$MODULE_DIR$/2-source/vendor/markbaker/complex" />
+      <excludeFolder url="file://$MODULE_DIR$/2-source/vendor/phpdocumentor/reflection-common" />
+      <excludeFolder url="file://$MODULE_DIR$/2-source/vendor/phpdocumentor/type-resolver" />
+      <excludeFolder url="file://$MODULE_DIR$/2-source/vendor/phpdocumentor/reflection-docblock" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
