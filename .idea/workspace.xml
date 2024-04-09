@@ -5,35 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="105f7c83-e2c3-4f13-98ee-8fbf50c631e9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/2-project-fit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/2-project-fit.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/.env" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/config/acl_base.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/config/acl_base.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/config/acl_messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/config/acl_messages.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/resources/lang/vi/acl-admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/resources/lang/vi/acl-admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/resources/lang/vi/acl-front.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/resources/lang/vi/acl-front.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/vendor/autoload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/vendor/composer/ClassLoader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/vendor/composer/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/vendor/composer/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/vendor/composer/autoload_files.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/vendor/composer/autoload_namespaces.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/vendor/composer/autoload_namespaces.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/vendor/composer/autoload_real.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/vendor/composer/autoload_static.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/vendor/composer/platform_check.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/vendor/composer/platform_check.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/vendor/foostart/package-acl/app/Authentication/Controllers/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/vendor/foostart/package-acl/app/Authentication/Controllers/AuthController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/vendor/foostart/package-acl/app/Authentication/Validators/RecoverPasswordValidator.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/vendor/foostart/package-acl/app/Authentication/Validators/RecoverPasswordValidator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/vendor/foostart/package-acl/app/Library/Email/SwiftMailer.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/vendor/foostart/package-acl/app/Library/Email/SwiftMailer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/vendor/foostart/package-acl/config/acl_base.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/vendor/foostart/package-acl/config/acl_base.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/vendor/foostart/package-acl/config/acl_messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/vendor/foostart/package-acl/config/acl_messages.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/vendor/foostart/package-acl/resources/lang/vi/acl-admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/vendor/foostart/package-acl/resources/lang/vi/acl-admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/vendor/foostart/package-acl/resources/lang/vi/acl-front.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/vendor/foostart/package-acl/resources/lang/vi/acl-front.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/vendor/foostart/package-acl/resources/views/admin/mail/reminder.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/vendor/foostart/package-acl/resources/views/admin/mail/reminder.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/vendor/foostart/package-acl/resources/views/client/auth/reminder.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/vendor/foostart/package-acl/resources/views/client/auth/reminder.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/vendor/foostart/package-category/Views/admin/partials/input_text.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/vendor/foostart/package-category/Views/admin/partials/input_text.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/vendor/foostart/package-category/Views/front/partials/input_text.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/vendor/foostart/package-category/Views/front/partials/input_text.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-source/vendor/foostart/package-forum/Models/Forum.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/vendor/foostart/package-forum/Models/Forum.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-source/vendor/foostart/package-forum/Views/admin/forum-item.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/vendor/foostart/package-forum/Views/admin/forum-item.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-source/vendor/foostart/package-forum/database/migrations/2024_04_03_084351_create_discussion_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/vendor/foostart/package-forum/database/migrations/2024_04_03_084351_create_discussion_table.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +33,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpServers">
     <servers>
       <server host="127.0.0.1" id="2b19913e-f720-428b-834e-b10e9a65e219" name="127.0.0.1" port="8000" />
@@ -297,7 +273,7 @@
       <workItem from="1712364500887" duration="623000" />
       <workItem from="1712399612265" duration="694000" />
       <workItem from="1712542595272" duration="3831000" />
-      <workItem from="1712636992236" duration="9500000" />
+      <workItem from="1712636992236" duration="11775000" />
     </task>
     <servers />
   </component>
@@ -319,37 +295,15 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/2-source/vendor/foostart/package-forum/Controllers/Admin/ForumAdminController.php</url>
-          <line>216</line>
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/2-source/vendor/foostart/package-forum/Models/Forum.php</url>
-          <line>350</line>
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/2-source/vendor/foostart/package-acl/app/Authentication/Controllers/AuthController.php</url>
-          <line>163</line>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/2-source/vendor/foostart/package-acl/app/Authentication/Services/ReminderService.php</url>
-          <line>79</line>
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/2-source/vendor/foostart/package-acl/app/Library/Email/SwiftMailer.php</url>
-          <line>21</line>
-          <option name="timeStamp" value="26" />
+          <line>290</line>
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="server.php">
-        <watch expression="$this-&gt;body-&gt;toHtml()" language="PHP" />
-        <watch expression="$this-&gt;subject" language="PHP" />
-        <watch expression="$this-&gt;getTemplate()" language="PHP" />
+        <watch expression="$elo-&gt;toSql()" language="PHP" />
       </configuration>
     </watches-manager>
   </component>
