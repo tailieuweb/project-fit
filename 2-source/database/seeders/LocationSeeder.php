@@ -1,8 +1,8 @@
 <?php namespace Database\Seeders;
 
-use Foostart\Category\Models\LocationProvinces;
-use Foostart\Category\Models\LocationDistricts;
-use Foostart\Category\Models\LocationWards;
+use Foostart\Branch\Models\LocationProvinces;
+use Foostart\Branch\Models\LocationDistricts;
+use Foostart\Branch\Models\LocationWards;
 use Foostart\Category\Helpers\FoostartSeeder;
 use Illuminate\Support\Facades\DB;
 use Carbon\Carbon;
@@ -19,7 +19,7 @@ class LocationSeeder extends FoostartSeeder
         // Prefix column name
         $this->prefix_column = '';
 
-        $this->pathData = base_path() . '/database/seeders/data';
+        $this->pathData = base_path() . '/vendor/foostart/package-branch/database/seeders/data';
     }
 
     /**

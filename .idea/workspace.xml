@@ -6,13 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="105f7c83-e2c3-4f13-98ee-8fbf50c631e9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/storage/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/storage/app/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/storage/app/public/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/storage/app/public/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/vendor/foostart/package-courses/Controllers/Admin/CourseAdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/vendor/foostart/package-courses/Controllers/Admin/CourseAdminController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/vendor/foostart/package-courses/Views/admin/course-view-item.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/vendor/foostart/package-courses/Views/admin/course-view-item.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/vendor/foostart/package-internship/Controllers/Admin/InternshipAdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/vendor/foostart/package-internship/Controllers/Admin/InternshipAdminController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/vendor/foostart/package-internship/Models/Internship.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/vendor/foostart/package-internship/Models/Internship.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/vendor/foostart/package-internship/Views/admin/internship-company-form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/vendor/foostart/package-internship/Views/admin/internship-company-form.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-source/config/package-category.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/config/package-category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-source/database/migrations/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/database/migrations/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-source/database/seeders/ContextSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/database/seeders/ContextSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-source/database/seeders/LocationSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/database/seeders/LocationSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-source/public/packages/foostart/css/package-category.css" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/public/packages/foostart/css/package-category.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-source/public/packages/foostart/less/package-category.less" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/public/packages/foostart/less/package-category.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-source/vendor/foostart/package-forum/Controllers/Admin/ForumAdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/vendor/foostart/package-forum/Controllers/Admin/ForumAdminController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-source/vendor/foostart/package-forum/Models/Forum.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/vendor/foostart/package-forum/Models/Forum.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-source/vendor/foostart/package-forum/Views/admin/forum-form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/vendor/foostart/package-forum/Views/admin/forum-form.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +26,7 @@
     <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/2-source/vendor" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -277,7 +279,7 @@
       <workItem from="1712399612265" duration="694000" />
       <workItem from="1712542595272" duration="3831000" />
       <workItem from="1712636992236" duration="11775000" />
-      <workItem from="1712750716966" duration="11195000" />
+      <workItem from="1712750716966" duration="19534000" />
     </task>
     <servers />
   </component>
@@ -299,17 +301,15 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/2-source/vendor/foostart/package-courses/Controllers/Admin/CourseAdminController.php</url>
-          <line>538</line>
-          <option name="timeStamp" value="51" />
+          <url>file://$PROJECT_DIR$/2-source/vendor/foostart/package-forum/Controllers/Admin/ForumAdminController.php</url>
+          <line>187</line>
+          <option name="timeStamp" value="61" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="server.php">
         <watch expression="$request-&gt;all()" language="PHP" />
-        <watch expression="$item-&gt;toArray()" language="PHP" />
-        <watch expression="$this-&gt;page_views['admin']['view']" language="PHP" />
       </configuration>
     </watches-manager>
   </component>
