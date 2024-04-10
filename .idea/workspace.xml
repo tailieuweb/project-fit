@@ -6,21 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="105f7c83-e2c3-4f13-98ee-8fbf50c631e9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/.env" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/database/migrations/2021_01_03_102927_create_company_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/database/migrations/2021_01_03_102927_create_company_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/database/migrations/2024_04_03_084351_create_discussion_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/database/migrations/2024_04_03_084351_create_discussion_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/database/migrations/2024_04_03_084351_create_forum_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/database/migrations/2024_04_03_084351_create_forum_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/vendor/foostart/package-acl/resources/views/admin/layouts/base.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/vendor/foostart/package-acl/resources/views/admin/layouts/base.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/vendor/foostart/package-category/Library/Controllers/FooController.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/vendor/foostart/package-category/Library/Controllers/FooController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/vendor/foostart/package-company/database/migrations/2021_01_03_102927_create_company_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/vendor/foostart/package-company/database/migrations/2021_01_03_102927_create_company_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/vendor/foostart/package-forum/Controllers/Admin/ForumAdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/vendor/foostart/package-forum/Controllers/Admin/ForumAdminController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/vendor/foostart/package-forum/Models/Forum.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/vendor/foostart/package-forum/Models/Forum.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/vendor/foostart/package-forum/Views/admin/forum-answers.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/vendor/foostart/package-forum/Views/admin/forum-answers.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/vendor/foostart/package-forum/Views/admin/forum-item.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/vendor/foostart/package-forum/Views/admin/forum-item.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/vendor/foostart/package-forum/Views/admin/forum-view.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/vendor/foostart/package-forum/Views/admin/forum-view.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/vendor/foostart/package-forum/database/migrations/2024_04_03_084351_create_discussion_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/vendor/foostart/package-forum/database/migrations/2024_04_03_084351_create_discussion_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/vendor/foostart/package-forum/database/migrations/2024_04_03_084351_create_forum_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/vendor/foostart/package-forum/database/migrations/2024_04_03_084351_create_forum_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/vendor/foostart/package-forum/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/vendor/foostart/package-forum/routes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-source/storage/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/storage/app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-source/storage/app/public/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/storage/app/public/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-source/vendor/foostart/package-courses/Controllers/Admin/CourseAdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/vendor/foostart/package-courses/Controllers/Admin/CourseAdminController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-source/vendor/foostart/package-courses/Views/admin/course-view-item.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/vendor/foostart/package-courses/Views/admin/course-view-item.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-source/vendor/foostart/package-internship/Controllers/Admin/InternshipAdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/vendor/foostart/package-internship/Controllers/Admin/InternshipAdminController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-source/vendor/foostart/package-internship/Models/Internship.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/vendor/foostart/package-internship/Models/Internship.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-source/vendor/foostart/package-internship/Views/admin/internship-company-form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/vendor/foostart/package-internship/Views/admin/internship-company-form.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +24,7 @@
     <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/2-source/vendor" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -45,7 +37,6 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpServers">
     <servers>
       <server host="127.0.0.1" id="2b19913e-f720-428b-834e-b10e9a65e219" name="127.0.0.1" port="8000" />
@@ -217,22 +208,22 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "project/3-fit-crawl-work",
-    "last_opened_file_path": "D:/1-github-workspace/1-tailieuweb/2-project-fit/2-source/vendor/foostart/package-forum/Models",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.webide.settings.project.settings.php",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;project/3-fit-crawl-work&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/1-github-workspace/1-tailieuweb/2-project-fit/2-source/vendor/foostart/package-forum/Models&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.webide.settings.project.settings.php&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\1-github-workspace\1-tailieuweb\2-project-fit\2-source\vendor\foostart\package-forum\Models" />
@@ -286,6 +277,7 @@
       <workItem from="1712399612265" duration="694000" />
       <workItem from="1712542595272" duration="3831000" />
       <workItem from="1712636992236" duration="11775000" />
+      <workItem from="1712750716966" duration="11195000" />
     </task>
     <servers />
   </component>
@@ -307,12 +299,19 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/2-source/vendor/foostart/package-forum/Controllers/Admin/ForumAdminController.php</url>
-          <line>556</line>
-          <option name="timeStamp" value="43" />
+          <url>file://$PROJECT_DIR$/2-source/vendor/foostart/package-courses/Controllers/Admin/CourseAdminController.php</url>
+          <line>538</line>
+          <option name="timeStamp" value="51" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="server.php">
+        <watch expression="$request-&gt;all()" language="PHP" />
+        <watch expression="$item-&gt;toArray()" language="PHP" />
+        <watch expression="$this-&gt;page_views['admin']['view']" language="PHP" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
