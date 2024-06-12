@@ -6,10 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="105f7c83-e2c3-4f13-98ee-8fbf50c631e9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/vendor/foostart/package-forum/Composers/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/vendor/foostart/package-forum/Composers/menu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/vendor/foostart/package-forum/Controllers/Admin/ForumAdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/vendor/foostart/package-forum/Controllers/Admin/ForumAdminController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/vendor/foostart/package-forum/Models/Forum.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/vendor/foostart/package-forum/Models/Forum.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-source/vendor/foostart/package-forum/Validators/ForumValidator.php" beforeDir="false" afterPath="$PROJECT_DIR$/2-source/vendor/foostart/package-forum/Validators/ForumValidator.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,22 +201,22 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "project/3-fit-crawl-work",
-    "last_opened_file_path": "D:/5-research/1-gh/1-tailieuweb/project-fit/2-source/vendor/foostart/package-forum/database/seeders",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.webide.settings.project.settings.php",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;project/3-fit-crawl-work&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/5-research/1-gh/1-tailieuweb/project-fit/2-source/vendor/foostart/package-forum/database/seeders&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.webide.settings.project.settings.php&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\5-research\1-gh\1-tailieuweb\project-fit\2-source\vendor\foostart\package-forum\database\seeders" />
@@ -276,6 +272,7 @@
       <workItem from="1712636992236" duration="11775000" />
       <workItem from="1712750716966" duration="19534000" />
       <workItem from="1717741676841" duration="9569000" />
+      <workItem from="1718160029909" duration="1740000" />
     </task>
     <servers />
   </component>
