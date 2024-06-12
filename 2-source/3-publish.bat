@@ -5,3 +5,6 @@ php artisan vendor:publish --provider="Foostart\Courses\CoursesServiceProvider" 
 php artisan vendor:publish --provider="Foostart\Category\CategoryServiceProvider" --force
 php artisan vendor:publish --provider="Foostart\Internship\InternshipServiceProvider" --force
 php artisan vendor:publish --provider="Foostart\Acl\Authentication\AuthenticationServiceProvider" --force
+
+
+php artisan vendor:publish --provider="Foostart\Filemanager\FilemanagerServiceProvider" --force
