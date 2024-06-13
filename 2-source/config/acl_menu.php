@@ -152,11 +152,11 @@ return [
             "permissions" => []
         ],
         // Forums
-        [
-            "name" => "acl-admin.menu.forum",
-            "route" => "forums",
-            "link" => '/admin/forums',
-            "permissions" => []
-        ],
+//        [
+//            "name" => "acl-admin.menu.forum",
+//            "route" => "forums",
+//            "link" => '/admin/forums',
+//            "permissions" => []
+//        ],
     ]
 ];
